@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{stroke:#FFFFFF;stroke-width:12.5;stroke-miterlimit:50;}
+	.st2{fill:#CD2E3A;}
+	.st3{fill:#0047A0;}
+</style>
+<g>
+	<path class="st0" d="M-62.2,43.9h636.4v424.3H-62.2V43.9z"/>
+	<g transform="rotate(-56.3099325)">
+		<g id="b2">
+			<path id="b" d="M-124,125.2l106.1,0v17.7H-124V125.2z M-124,151.7H-18v17.7H-124V151.7z M-124,178.2H-18v17.7H-124V178.2z"/>
+			<g>
+				<path id="b_00000156586769415696911520000012460627730113266846_" d="M-124,514.1H-18v17.7H-124V514.1z M-124,540.6H-18v17.7
+					H-124V540.6z M-124,567.1H-18l0,17.7H-124V567.1z"/>
+			</g>
+		</g>
+		<path class="st1" d="M-71,505.3v88.4"/>
+		<path class="st2" d="M-71,248.9c58.6,0,106.1,47.5,106.1,106.1S-12.4,461.1-71,461.1L-71,248.9z"/>
+		<path class="st3" d="M-71,248.9c-58.6,0-106.1,47.5-106.1,106.1S-129.6,461.1-71,461.1c29.3,0,53-23.7,53-53c0-29.3-23.7-53-53-53
+			L-71,248.9z"/>
+		<circle class="st2" cx="-71" cy="302" r="53"/>
+	</g>
+	<g transform="rotate(-123.6900675)">
+		<g>
+			<g id="b2_00000081606055267300411650000001838623286675300498_">
+				<path id="b_00000020385112206984306270000018330445949874614701_" d="M-408-158.8H-302v17.7l-106.1,0V-158.8z M-408-132.3
+					l106.1,0v17.7l-106.1,0V-132.3z M-408-105.8l106.1,0v17.7l-106.1,0V-105.8z"/>
+				<g>
+					<path id="b_00000007426425460800003670000009827973108304012427_" d="M-408,230.1H-302v17.7l-106.1,0V230.1z M-408,256.6H-302
+						v17.7H-408V256.6z M-408,283.1l106.1,0v17.7H-408V283.1z"/>
+				</g>
+			</g>
+		</g>
+		<path class="st1" d="M-355-136.7v26.5 M-355,221.3v30.9 M-355,278.7v26.5"/>
+	</g>
+</g>
+</svg>
