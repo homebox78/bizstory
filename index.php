@@ -795,7 +795,7 @@ include_once("header.php");
 																	<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																		<!-- 등록자, 분류 -->
 																		<div class="d-flex flex-stack mb-3">
-																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">22동원대학교 오정민</span><br />(2023-04-10 14:27)</div>
+																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">동원대학교 오정민</span><br />(2023-04-10 14:27)</div>
 																			<div class="badge badge-danger fw-normal py-2 px-3">웹사이트관련</div>
 																		</div>
 																		<!--// 등록자, 분류 -->
