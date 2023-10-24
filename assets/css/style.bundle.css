@@ -39,6 +39,10 @@
     font-display: swap;
 }
 
+* {
+	transition: all .6s ease;
+}
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -44750,9 +44754,7 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-body-bg) !important;
 }
 
-.bg-hover-body {
-  cursor: pointer;
-}
+
 .bg-hover-body:hover {
   background-color: var(--bs-body-bg) !important;
 }
@@ -44761,16 +44763,12 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-body-bg) !important;
 }
 
-.bg-state-body {
-  cursor: pointer;
-}
+
 .bg-state-body.active, .bg-state-body:hover {
   background-color: var(--bs-body-bg) !important;
 }
 
-.bg-hover-white {
-  cursor: pointer;
-}
+
 .bg-hover-white:hover {
   --bs-bg-rgb-color: var(--bs-white-bg-rgb);
   background-color: #ffffff !important;
@@ -44781,9 +44779,7 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: #ffffff !important;
 }
 
-.bg-state-white {
-  cursor: pointer;
-}
+
 .bg-state-white.active, .bg-state-white:hover {
   --bs-bg-rgb-color: var(--bs-white-bg-rgb);
   background-color: #ffffff !important;
@@ -44799,9 +44795,7 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-light-active) !important;
 }
 
-.bg-hover-light {
-  cursor: pointer;
-}
+
 .bg-hover-light:hover {
   background-color: var(--bs-light) !important;
 }
@@ -44810,9 +44804,7 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-light) !important;
 }
 
-.bg-state-light {
-  cursor: pointer;
-}
+
 .bg-state-light.active, .bg-state-light:hover {
   background-color: var(--bs-light) !important;
 }
@@ -44831,23 +44823,17 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-primary-active) !important;
 }
 
-.bg-hover-light-primary {
-  cursor: pointer;
-}
+
 .bg-hover-light-primary:hover {
   background-color: var(--bs-primary-light) !important;
 }
 
-.bg-state-light-primary {
-  cursor: pointer;
-}
+
 .bg-state-light-primary.active, .bg-state-light-primary:hover {
   background-color: var(--bs-primary-light) !important;
 }
 
-.bg-hover-primary {
-  cursor: pointer;
-}
+
 .bg-hover-primary:hover {
   background-color: var(--bs-primary) !important;
 }
@@ -44856,9 +44842,7 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-primary) !important;
 }
 
-.bg-state-primary {
-  cursor: pointer;
-}
+
 .bg-state-primary.active, .bg-state-primary:hover {
   background-color: var(--bs-primary) !important;
 }
@@ -44877,23 +44861,17 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-secondary-active) !important;
 }
 
-.bg-hover-light-secondary {
-  cursor: pointer;
-}
+
 .bg-hover-light-secondary:hover {
   background-color: var(--bs-secondary-light) !important;
 }
 
-.bg-state-light-secondary {
-  cursor: pointer;
-}
+
 .bg-state-light-secondary.active, .bg-state-light-secondary:hover {
   background-color: var(--bs-secondary-light) !important;
 }
 
-.bg-hover-secondary {
-  cursor: pointer;
-}
+
 .bg-hover-secondary:hover {
   background-color: var(--bs-secondary) !important;
 }
@@ -44902,9 +44880,7 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-secondary) !important;
 }
 
-.bg-state-secondary {
-  cursor: pointer;
-}
+
 .bg-state-secondary.active, .bg-state-secondary:hover {
   background-color: var(--bs-secondary) !important;
 }
@@ -44923,23 +44899,17 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-success-active) !important;
 }
 
-.bg-hover-light-success {
-  cursor: pointer;
-}
+
 .bg-hover-light-success:hover {
   background-color: var(--bs-success-light) !important;
 }
 
-.bg-state-light-success {
-  cursor: pointer;
-}
+
 .bg-state-light-success.active, .bg-state-light-success:hover {
   background-color: var(--bs-success-light) !important;
 }
 
-.bg-hover-success {
-  cursor: pointer;
-}
+
 .bg-hover-success:hover {
   background-color: var(--bs-success) !important;
 }
@@ -44948,9 +44918,7 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-success) !important;
 }
 
-.bg-state-success {
-  cursor: pointer;
-}
+
 .bg-state-success.active, .bg-state-success:hover {
   background-color: var(--bs-success) !important;
 }
@@ -44969,23 +44937,16 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-info-active) !important;
 }
 
-.bg-hover-light-info {
-  cursor: pointer;
-}
+
 .bg-hover-light-info:hover {
   background-color: var(--bs-info-light) !important;
 }
 
-.bg-state-light-info {
-  cursor: pointer;
-}
+
 .bg-state-light-info.active, .bg-state-light-info:hover {
   background-color: var(--bs-info-light) !important;
 }
 
-.bg-hover-info {
-  cursor: pointer;
-}
 .bg-hover-info:hover {
   background-color: var(--bs-info) !important;
 }
@@ -44994,9 +44955,6 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-info) !important;
 }
 
-.bg-state-info {
-  cursor: pointer;
-}
 .bg-state-info.active, .bg-state-info:hover {
   background-color: var(--bs-info) !important;
 }
@@ -45015,23 +44973,14 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-warning-active) !important;
 }
 
-.bg-hover-light-warning {
-  cursor: pointer;
-}
 .bg-hover-light-warning:hover {
   background-color: var(--bs-warning-light) !important;
 }
 
-.bg-state-light-warning {
-  cursor: pointer;
-}
 .bg-state-light-warning.active, .bg-state-light-warning:hover {
   background-color: var(--bs-warning-light) !important;
 }
 
-.bg-hover-warning {
-  cursor: pointer;
-}
 .bg-hover-warning:hover {
   background-color: var(--bs-warning) !important;
 }
@@ -45040,9 +44989,6 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-warning) !important;
 }
 
-.bg-state-warning {
-  cursor: pointer;
-}
 .bg-state-warning.active, .bg-state-warning:hover {
   background-color: var(--bs-warning) !important;
 }
@@ -45061,23 +45007,14 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-danger-active) !important;
 }
 
-.bg-hover-light-danger {
-  cursor: pointer;
-}
 .bg-hover-light-danger:hover {
   background-color: var(--bs-danger-light) !important;
 }
 
-.bg-state-light-danger {
-  cursor: pointer;
-}
 .bg-state-light-danger.active, .bg-state-light-danger:hover {
   background-color: var(--bs-danger-light) !important;
 }
 
-.bg-hover-danger {
-  cursor: pointer;
-}
 .bg-hover-danger:hover {
   background-color: var(--bs-danger) !important;
 }
@@ -45086,9 +45023,6 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-danger) !important;
 }
 
-.bg-state-danger {
-  cursor: pointer;
-}
 .bg-state-danger.active, .bg-state-danger:hover {
   background-color: var(--bs-danger) !important;
 }
@@ -45107,23 +45041,14 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-dark-active) !important;
 }
 
-.bg-hover-light-dark {
-  cursor: pointer;
-}
 .bg-hover-light-dark:hover {
   background-color: var(--bs-dark-light) !important;
 }
 
-.bg-state-light-dark {
-  cursor: pointer;
-}
 .bg-state-light-dark.active, .bg-state-light-dark:hover {
   background-color: var(--bs-dark-light) !important;
 }
 
-.bg-hover-dark {
-  cursor: pointer;
-}
 .bg-hover-dark:hover {
   background-color: var(--bs-dark) !important;
 }
@@ -45132,9 +45057,6 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   background-color: var(--bs-dark) !important;
 }
 
-.bg-state-dark {
-  cursor: pointer;
-}
 .bg-state-dark.active, .bg-state-dark:hover {
   background-color: var(--bs-dark) !important;
 }
