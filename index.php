@@ -1,6 +1,6 @@
 <?php
 	include_once("header.php");
-	?>
+?>
 <!-- Body -->
 <body id="kt_app_body" data-kt-app-layout="dark-sidebar" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
 	<!-- App -->
@@ -174,44 +174,318 @@
 									</div>
 								</div>
 								<!-- //심플노트 -->
-
 								<!-- Row -->
 								<div class="row g-8">
 									<!-- Col -->
+									<div class="col-md-4">
+										<div class="card h-md-100" dir="ltr">
+											<!--begin::Body-->
+											<div class="card-body d-flex flex-column flex-center">
+												<!--begin::Heading-->
+												<div class="mb-2">
+													<!--begin::Title-->
+													<h1 class="fs-2 fw-normal text-gray-600 text-center lh-base">
+														과장
+														<div class="fw-semibold text-gray-800">김지훈</div>
+													</h1>
+													<!--end::Title-->
+													<!--begin::Illustration-->
+													<div class="py-4 text-center">
+														<!-- Photo -->
+														<div class="bg-warning symbol symbol-80px symbol-lg-150px symbol-circle mb-4">
+															<img src="assets/media/avatars/300-5.png" class="p-2" alt="">
+														</div>
+														<!--// Photo -->
+													</div>
+													<!--end::Illustration-->
+												</div>
+												<!--end::Heading-->
+												<!--begin::Links-->
+												<div class="text-center mb-1">
+													<!--begin::Link-->
+													<a class="btn btn-sm btn-danger me-2" href="#">
+														퇴근하기
+													</a>
+													<!--end::Link-->
+													<!--begin::Link-->
+													<a class="btn btn-sm btn-light" href="#">
+														정보수정
+													</a>
+													<!--end::Link-->
+												</div>
+												<!--end::Links-->
+											</div>
+											<!--end::Body-->
+										</div>
+									</div>
+									<!--// Col -->
+									<!-- Col -->
+									<div class="col-md-4">
+										<div class="card card-flush h-xl-100">
+											<!--begin::Heading-->
+											<div class="card-header rounded bgi-no-repeat bgi-size-cover bgi-position-y-top bgi-position-x-center align-items-start h-150px bg-warning" style="background-image:url('assets/media/patterns/vector-1.png" data-bs-theme="light">
+												<!--begin::Title-->
+												<h3 class="card-title align-items-start flex-column text-white pt-5">
+													<span class="fw-bold fs-4 mb-3">현재 업무현황</span>
+												</h3>
+												<!--end::Title-->
+												<!--begin::Toolbar-->
+												<div class="card-toolbar pt-5">
+													<!--begin::Menu-->
+													<button class="btn btn-sm btn-icon btn-active-color-primary btn-color-white bg-white bg-opacity-25 bg-hover-opacity-100 bg-hover-white bg-active-opacity-25 w-20px h-20px" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+													<i class="ki-outline ki-dots-square fs-4"></i>
+													</button>
+													<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true" style="">
+														<!--Menu item-->
+														<div class="menu-item px-3">
+															<a href="#" class="menu-link px-3">
+															일정
+															</a>
+														</div>
+														<!--// Menu item-->
+														<!--Menu item-->
+														<div class="menu-item px-3">
+															<a href="#" class="menu-link flex-stack px-3">
+															업무
+															</a>
+														</div>
+														<!--// Menu item-->
+														<!--Menu item-->
+														<div class="menu-item px-3">
+															<a href="#" class="menu-link px-3">
+															쪽지
+															</a>
+														</div>
+														<!--// Menu item-->
+														<!--Menu item-->
+														<div class="menu-item px-3 my-1">
+															<a href="#" class="menu-link px-3">
+															자기정보
+															</a>
+														</div>
+														<!--// Menu item-->
+													</div>
+													<!--end::Menu-->
+												</div>
+												<!--end::Toolbar-->
+											</div>
+											<!--end::Heading-->
+											<!--begin::Body-->
+											<div class="card-body mt-n20">
+												<!--begin::Stats-->
+												<div class="mt-n20 position-relative">
+													<!--begin::Row-->
+													<div class="row g-3 g-lg-6">
+														<!--begin::Col-->
+														<div class="col-6">
+															<!--begin::Items-->
+															<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+																<!--begin::Symbol-->
+																<div class="symbol symbol-30px me-5 mb-4">
+																	<span class="symbol-label">
+																	<i class="ki-solid ki-code fs-1 text-warning"></i>
+																	</span>
+																</div>
+																<!--end::Symbol-->
+																<!--begin::Stats-->
+																<div class="m-0">
+																	<!--begin::Number-->
+																	<span class="text-gray-700 fw-bolder d-block fs-2x lh-1 ls-n1 mb-1">37</span>
+																	<!--end::Number-->
+																	<!--begin::Desc-->
+																	<span class="text-gray-500 fs-6">총 업무처리</span>
+																	<!--end::Desc-->
+																</div>
+																<!--end::Stats-->
+															</div>
+															<!--end::Items-->
+														</div>
+														<!--end::Col-->
+														<!--begin::Col-->
+														<div class="col-6">
+															<!--begin::Items-->
+															<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+																<!--begin::Symbol-->
+																<div class="symbol symbol-30px me-5 mb-4">
+																	<span class="symbol-label">
+																	<i class="ki-solid ki-notepad-edit fs-1 text-warning"></i>
+																	</span>
+																</div>
+																<!--end::Symbol-->
+																<!--begin::Stats-->
+																<div class="m-0">
+																	<!--begin::Number-->
+																	<span class="text-gray-700 fw-bolder d-block fs-2x lh-1 ls-n1 mb-1">6</span>
+																	<!--end::Number-->
+																	<!--begin::Desc-->
+																	<span class="text-gray-500 fs-6">총 접수처리</span>
+																	<!--end::Desc-->
+																</div>
+																<!--end::Stats-->
+															</div>
+															<!--end::Items-->
+														</div>
+														<!--end::Col-->
+														<!--begin::Col-->
+														<div class="col-6">
+															<!--begin::Items-->
+															<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+																<!--begin::Symbol-->
+																<div class="symbol symbol-30px me-5 mb-4">
+																	<span class="symbol-label">
+																	<i class="ki-solid ki-messages fs-1 text-warning"></i>
+																	</span>
+																</div>
+																<!--end::Symbol-->
+																<!--begin::Stats-->
+																<div class="m-0">
+																	<!--begin::Number-->
+																	<span class="text-gray-700 fw-bolder d-block fs-2x lh-1 ls-n1 mb-1">4,7</span>
+																	<!--end::Number-->
+																	<!--begin::Desc-->
+																	<span class="text-gray-500 fs-6">진행업무</span>
+																	<!--end::Desc-->
+																</div>
+																<!--end::Stats-->
+															</div>
+															<!--end::Items-->
+														</div>
+														<!--end::Col-->
+														<!--begin::Col-->
+														<div class="col-6">
+															<!--begin::Items-->
+															<div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+																<!--begin::Symbol-->
+																<div class="symbol symbol-30px me-5 mb-4">
+																	<span class="symbol-label">
+																	<i class="ki-solid ki-message-text fs-1 text-warning"></i>
+																	</span>
+																</div>
+																<!--end::Symbol-->
+																<!--begin::Stats-->
+																<div class="m-0">
+																	<!--begin::Number-->
+																	<span class="text-gray-700 fw-bolder d-block fs-2x lh-1 ls-n1 mb-1">822</span>
+																	<!--end::Number-->
+																	<!--begin::Desc-->
+																	<span class="text-gray-500 fs-6">진행접수</span>
+																	<!--end::Desc-->
+																</div>
+																<!--end::Stats-->
+															</div>
+															<!--end::Items-->
+														</div>
+														<!--end::Col-->
+													</div>
+													<!--end::Row-->
+												</div>
+												<!--end::Stats-->
+											</div>
+											<!--end::Body-->
+										</div>
+									</div>
+									<!--// Col -->
+									<div class="col-md-4">
+										<!--Carousel-->
+										<div class="carousel carousel-custom carousel-stretch slide" data-bs-ride="carousel" data-bs-interval="8000">
+											<!--Heading-->
+											<div class="d-flex flex-stack align-items-center flex-wrap">
+												<ol class="p-0 m-0 carousel-indicators carousel-indicators-dots">
+													<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="0" class="ms-1 active"></li>
+													<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="1" class="ms-1"></li>
+													<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="2" class="ms-1"></li>
+												</ol>
+											</div>
+											<!--// Heading-->
+											<!--Carousel inner-->
+											<div class="carousel-inner pt-2">
+												<!--Item-->
+												<div class="carousel-item active">
+													<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_4_1.jpg" class="w-100" alt=""></a>
+												</div>
+												<!--// Item-->
+												<!--Item-->
+												<div class="carousel-item">
+													<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_5_1.jpg" class="w-100" alt=""></a>
+												</div>
+												<!--// Item-->
+												<!--Item-->
+												<div class="carousel-item">
+													<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_6_1.jpg" class="w-100" alt=""></a>
+												</div>
+												<!--// Item-->
+											</div>
+											<!--// Carousel inner-->
+										</div>
+										<!--// Carousel-->
+										<div class="d-flex justify-content-between text-white pt-1 fw-semibold fs-5">비즈스토리 사용내역</div>
+										<div class="d-flex justify-content-between fw-semibold text-white opacity-75 pt-1 fw-semibold fs-8 w-100 mt-auto mb-2">
+											<span>시작일/만기일: 2012.02.20/2017.02.20</span>
+											<span>62%</span>
+										</div>
+										<div class="h-8px w-100 bg-white bg-opacity-50 rounded">
+											<div class="bg-white rounded h-8px" role="progressbar" style="width: 62%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<!-- Col -->
 									<div class="col-md-6">
 										<div class="card card-flush h-xl-100">
-											<div class="card-header pt-0 px-8">
-												<!--Tabs-->
-												<ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x fs-6 fw-semibold mt-6 mb-8 gap-2">
-													<!--Tab item-->
-													<li class="nav-item">
-														<a class="nav-link text-active-primary d-flex align-items-center pb-4 active" data-bs-toggle="tab" href="#workList1">
-															<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 미처리현황
-															<span class="fs-6 text-gray-400 ms-2">19</span>
-														</a>
-													</li>
-													<!--// Tab item-->
-
-													<!--Tab item-->
-													<li class="nav-item">
-														<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#workList2">
-															<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 리스트
-															<span class="fs-6 text-gray-400 ms-2">8</span>
-														</a>
-													</li>
-													<!--// Tab item-->
-
-													<!--Tab item-->
-													<li class="nav-item">
-														<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#workList3">
-															<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 리스트
-															<span class="fs-6 text-gray-400 ms-2">7</span>
-														</a>
-													</li>
-													<!--// Tab item-->
-												</ul>
-												<!--// Tabs-->
-											</div>
+											<ul class="nav nav-pills nav-pills-custom row position-relative mx-8 my-6" role="tablist">
+												<!--begin::Item-->
+												<li class="nav-item col-4 mx-0 p-0" role="presentation">
+													<!--begin::Link-->
+													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100 active" data-bs-toggle="pill" href="#workList1" aria-selected="true" role="tab">
+														<!--begin::Subtitle-->
+														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+														<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 <span class=" d-none d-xxl-inline-block">미처리</span>현황
+														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">19</span>
+														</span>
+														<!--end::Subtitle-->
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+													<!--end::Link-->
+												</li>
+												<!--end::Item-->
+												<!--begin::Item-->
+												<li class="nav-item col-4 mx-0 px-0" role="presentation">
+													<!--begin::Link-->
+													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#workList2" aria-selected="false" role="tab" tabindex="-1">
+														<!--begin::Subtitle-->
+														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+														<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 리스트
+														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">8</span>
+														</span>
+														<!--end::Subtitle-->
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+													<!--end::Link-->
+												</li>
+												<!--end::Item-->
+												<!--begin::Item-->
+												<li class="nav-item col-4 mx-0 px-0" role="presentation">
+													<!--begin::Link-->
+													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#workList3" aria-selected="false" role="tab" tabindex="-1">
+														<!--begin::Subtitle-->
+														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+														<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 <span class=" d-none d-xxl-inline-block">리스트</span>
+														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
+														</span>
+														<!--end::Subtitle-->
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+													<!--end::Link-->
+												</li>
+												<!--end::Item-->
+												<!--begin::Bullet-->
+												<span class="position-absolute z-index-1 bottom-0 w-100 h-3px bg-light rounded"></span>
+												<!--end::Bullet-->
+											</ul>
 											<div class="card-body pt-0 ps-8 pe-0">
 												<!--Tab content-->
 												<div class="tab-content hover-scroll-overlay-y pe-4 me-4" style="height: 400px">
@@ -264,7 +538,6 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -304,7 +577,6 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -350,13 +622,11 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<a href="#" class="btn btn-warning er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 접수 등록</a>
 														</div>
 														<!--// 접수 미처리현황 -->
 													</div>
 													<!--// Tab pane-->
-
 													<!--Tab pane-->
 													<div class="tab-pane fade" id="workList2" role="tabpanel">
 														<!-- 업무 리스트 -->
@@ -409,7 +679,6 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -454,7 +723,6 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -503,13 +771,11 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<a href="#" class="btn btn-primary er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 업무 등록</a>
 														</div>
 														<!--// 업무 리스트 -->
 													</div>
 													<!--// Tab pane-->
-
 													<!--Tab pane-->
 													<div class="tab-pane fade" id="workList3" role="tabpanel">
 														<!-- 프로젝트 리스트 -->
@@ -565,7 +831,6 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -614,7 +879,6 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -666,7 +930,6 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
-
 															<a href="#" class="btn btn-success er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 프로젝트 등록</a>
 														</div>
 														<!--// 프로젝트 리스트 -->
@@ -678,43 +941,66 @@
 										</div>
 									</div>
 									<!--// Col -->
-
 									<!-- Col -->
 									<div class="col-md-6">
 										<!-- 이력 -->
 										<div class="card card-flush h-xl-100">
-											<div class="card-header pt-0 px-8">
-												<!--Tabs-->
-												<ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x fs-6 fw-semibold mt-6 mb-8 gap-2">
-													<!--Tab item-->
-													<li class="nav-item">
-														<a class="nav-link text-active-primary d-flex align-items-center pb-4 active" data-bs-toggle="tab" href="#timelineList1">
-															<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 이력
-															<span class="fs-6 text-gray-400 ms-2">13</span>
-														</a>
-													</li>
-													<!--// Tab item-->
-
-													<!--Tab item-->
-													<li class="nav-item">
-														<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#timelineList2">
-															<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 이력
-															<span class="fs-6 text-gray-400 ms-2">21</span>
-														</a>
-													</li>
-													<!--// Tab item-->
-
-													<!--Tab item-->
-													<li class="nav-item">
-														<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#timelineList3">
-															<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 이력
-															<span class="fs-6 text-gray-400 ms-2">16</span>
-														</a>
-													</li>
-													<!--// Tab item-->
-												</ul>
-												<!--// Tabs-->
-											</div>
+											<ul class="nav nav-pills nav-pills-custom row position-relative mx-8 my-6" role="tablist">
+												<!--begin::Item-->
+												<li class="nav-item col-4 mx-0 p-0" role="presentation">
+													<!--begin::Link-->
+													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100 active" data-bs-toggle="pill" href="#timelineList1" aria-selected="true" role="tab">
+														<!--begin::Subtitle-->
+														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+														<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 이력
+														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">15</span>
+														</span>
+														<!--end::Subtitle-->
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+													<!--end::Link-->
+												</li>
+												<!--end::Item-->
+												<!--begin::Item-->
+												<li class="nav-item col-4 mx-0 px-0" role="presentation">
+													<!--begin::Link-->
+													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList2" aria-selected="false" role="tab" tabindex="-1">
+														<!--begin::Subtitle-->
+														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+														<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 이력
+														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">9</span>
+														</span>
+														<!--end::Subtitle-->
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+													<!--end::Link-->
+												</li>
+												<!--end::Item-->
+												<!--begin::Item-->
+												<li class="nav-item col-4 mx-0 px-0" role="presentation">
+													<!--begin::Link-->
+													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList3" aria-selected="false" role="tab" tabindex="-1">
+														<!--begin::Subtitle-->
+														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+														<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 이력
+														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
+														</span>
+														<!--end::Subtitle-->
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+													<!--end::Link-->
+												</li>
+												<!--end::Item-->
+												<!--begin::Bullet-->
+												<span class="position-absolute z-index-1 bottom-0 w-100 h-3px bg-light rounded"></span>
+												<!--end::Bullet-->
+											</ul>
 											<div class="card-body pt-0 ps-8 pe-0">
 												<!--Tab content-->
 												<div class="tab-content hover-scroll-overlay-y pe-4 me-4" style="height: 400px">
@@ -879,7 +1165,6 @@
 														<!--// Timeline -->
 													</div>
 													<!--// Tab pane-->
-
 													<!--Tab pane-->
 													<div class="tab-pane fade" id="timelineList2" role="tabpanel">
 														<!-- Timeline -->
@@ -1041,7 +1326,6 @@
 														<!--// Timeline -->
 													</div>
 													<!--// Tab pane-->
-
 													<!--Tab pane-->
 													<div class="tab-pane fade" id="timelineList3" role="tabpanel">
 														<!-- Timeline -->
@@ -1210,7 +1494,6 @@
 										<!--// 이력 -->
 									</div>
 									<!--// Col -->
-
 									<!-- Col -->
 									<div class="col-md-6">
 										<div class="card card-flush h-xl-100">
@@ -1221,7 +1504,6 @@
 													<span class="fw-semibold fs-4">최근접속 회원정보</span>
 												</h3>
 												<!-- Title-->
-
 												<!-- Toolbar-->
 												<div class="card-toolbar">
 													<span class="fs-6 text-gray-400 ms-2">10</span>
@@ -1232,624 +1514,600 @@
 											<div class="card-body pt-0 px-0">
 												<!-- List -->
 												<div class="px-8 hover-scroll-overlay-y pe-4 me-4 mb-2" style="height: 320px">
-														<!-- Item-->
-														<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-															<!-- Info-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Wrapper-->
-																<div class="me-3">
-																	<!-- Icon-->
-																	<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																		<img alt="Pic" src="assets/media/avatars/300-13.png">
-																	</div>
-																	<!-- Icon-->
-																	<!-- Title-->
-																	<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">김원홍</a>
-																	<span class="badge badge-light-primary ms-2">개발이사</span>
-																	<!-- Title-->
+													<!-- Item-->
+													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+														<!-- Info-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Wrapper-->
+															<div class="me-3">
+																<!-- Icon-->
+																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																	<img alt="Pic" src="assets/media/avatars/300-13.png">
 																</div>
-																<!-- Wrapper-->
-																<!-- Action-->
-																<div class="m-0">
-																	<!-- Menu-->
-																	<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																		data-kt-menu-trigger="click"
-																		data-kt-menu-placement="bottom-end"
-																		data-kt-menu-overflow="true">
-																	<i class="ki-outline ki-dots-square fs-1"></i>
-																	</button>
-																	<!-- Menu 2-->
-																	<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																			</div>
+																<!-- Icon-->
+																<!-- Title-->
+																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">김원홍</a>
+																<span class="badge badge-light-primary ms-2">개발이사</span>
+																<!-- Title-->
+															</div>
+															<!-- Wrapper-->
+															<!-- Action-->
+															<div class="m-0">
+																<!-- Menu-->
+																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																	data-kt-menu-trigger="click"
+																	data-kt-menu-placement="bottom-end"
+																	data-kt-menu-overflow="true">
+																<i class="ki-outline ki-dots-square fs-1"></i>
+																</button>
+																<!-- Menu 2-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
 																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu separator-->
-																		<div class="separator mt-2 opacity-75"></div>
-																		<!-- Menu separator-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				쪽지 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				메일 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
 																	</div>
-																	<!-- Menu 2-->
-																	<!-- Menu-->
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3 mt-4">
+																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
+																		쪽지 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
+																		메일 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
 																</div>
-																<!-- Action-->
+																<!-- Menu 2-->
+																<!-- Menu-->
 															</div>
-															<!-- Info-->
-															<!-- Customer-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Name-->
-																<span class="text-gray-400">To:
-																	<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-																</span>
-																<!-- Name-->
-																<!-- Label-->
-																<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-																<!-- Label-->
-															</div>
-															<!-- Customer-->
+															<!-- Action-->
 														</div>
-														<!-- Item-->
-
-														<!-- Item-->
-														<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-															<!-- Info-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Wrapper-->
-																<div class="me-3">
-																	<!-- Icon-->
-																	<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																		<img alt="Pic" src="assets/media/avatars/300-14.png">
-																	</div>
-																	<!-- Icon-->
-																	<!-- Title-->
-																	<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">감우성</a>
-																	<span class="badge badge-light-primary ms-2">부장</span>
-																	<!-- Title-->
-																</div>
-																<!-- Wrapper-->
-																<!-- Action-->
-																<div class="m-0">
-																	<!-- Menu-->
-																	<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																		data-kt-menu-trigger="click"
-																		data-kt-menu-placement="bottom-end"
-																		data-kt-menu-overflow="true">
-																	<i class="ki-outline ki-dots-square fs-1"></i>
-																	</button>
-																	<!-- Menu 2-->
-																	<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu separator-->
-																		<div class="separator mt-2 opacity-75"></div>
-																		<!-- Menu separator-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				쪽지 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				메일 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																	</div>
-																	<!-- Menu 2-->
-																	<!-- Menu-->
-																</div>
-																<!-- Action-->
-															</div>
-															<!-- Info-->
-															<!-- Customer-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Name-->
-																<span class="text-gray-400">To:
-																	<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-																</span>
-																<!-- Name-->
-																<!-- Label-->
-																<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-																<!-- Label-->
-															</div>
-															<!-- Customer-->
+														<!-- Info-->
+														<!-- Customer-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Name-->
+															<span class="text-gray-400">To:
+															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+															</span>
+															<!-- Name-->
+															<!-- Label-->
+															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+															<!-- Label-->
 														</div>
-														<!-- Item-->
-
-														<!-- Item-->
-														<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-															<!-- Info-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Wrapper-->
-																<div class="me-3">
-																	<!-- Icon-->
-																	<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																		<img alt="Pic" src="assets/media/avatars/300-15.png">
-																	</div>
-																	<!-- Icon-->
-																	<!-- Title-->
-																	<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">이나영</a>
-																	<span class="badge badge-light-primary ms-2">과장</span>
-																	<!-- Title-->
+														<!-- Customer-->
+													</div>
+													<!-- Item-->
+													<!-- Item-->
+													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+														<!-- Info-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Wrapper-->
+															<div class="me-3">
+																<!-- Icon-->
+																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																	<img alt="Pic" src="assets/media/avatars/300-14.png">
 																</div>
-																<!-- Wrapper-->
-																<!-- Action-->
-																<div class="m-0">
-																	<!-- Menu-->
-																	<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																		data-kt-menu-trigger="click"
-																		data-kt-menu-placement="bottom-end"
-																		data-kt-menu-overflow="true">
-																	<i class="ki-outline ki-dots-square fs-1"></i>
-																	</button>
-																	<!-- Menu 2-->
-																	<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																			</div>
+																<!-- Icon-->
+																<!-- Title-->
+																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">감우성</a>
+																<span class="badge badge-light-primary ms-2">부장</span>
+																<!-- Title-->
+															</div>
+															<!-- Wrapper-->
+															<!-- Action-->
+															<div class="m-0">
+																<!-- Menu-->
+																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																	data-kt-menu-trigger="click"
+																	data-kt-menu-placement="bottom-end"
+																	data-kt-menu-overflow="true">
+																<i class="ki-outline ki-dots-square fs-1"></i>
+																</button>
+																<!-- Menu 2-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
 																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu separator-->
-																		<div class="separator mt-2 opacity-75"></div>
-																		<!-- Menu separator-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				쪽지 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				메일 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
 																	</div>
-																	<!-- Menu 2-->
-																	<!-- Menu-->
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3 mt-4">
+																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
+																		쪽지 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
+																		메일 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
 																</div>
-																<!-- Action-->
+																<!-- Menu 2-->
+																<!-- Menu-->
 															</div>
-															<!-- Info-->
-															<!-- Customer-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Name-->
-																<span class="text-gray-400">To:
-																	<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-																</span>
-																<!-- Name-->
-																<!-- Label-->
-																<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-																<!-- Label-->
-															</div>
-															<!-- Customer-->
+															<!-- Action-->
 														</div>
-														<!-- Item-->
-
-														<!-- Item-->
-														<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-															<!-- Info-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Wrapper-->
-																<div class="me-3">
-																	<!-- Icon-->
-																	<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																		<img alt="Pic" src="assets/media/avatars/300-16.png">
-																	</div>
-																	<!-- Icon-->
-																	<!-- Title-->
-																	<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">김원홍</a>
-																	<span class="badge badge-light-primary ms-2">대리</span>
-																	<!-- Title-->
-																</div>
-																<!-- Wrapper-->
-																<!-- Action-->
-																<div class="m-0">
-																	<!-- Menu-->
-																	<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																		data-kt-menu-trigger="click"
-																		data-kt-menu-placement="bottom-end"
-																		data-kt-menu-overflow="true">
-																	<i class="ki-outline ki-dots-square fs-1"></i>
-																	</button>
-																	<!-- Menu 2-->
-																	<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu separator-->
-																		<div class="separator mt-2 opacity-75"></div>
-																		<!-- Menu separator-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				쪽지 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				메일 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																	</div>
-																	<!-- Menu 2-->
-																	<!-- Menu-->
-																</div>
-																<!-- Action-->
-															</div>
-															<!-- Info-->
-															<!-- Customer-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Name-->
-																<span class="text-gray-400">To:
-																	<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-																</span>
-																<!-- Name-->
-																<!-- Label-->
-																<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-																<!-- Label-->
-															</div>
-															<!-- Customer-->
+														<!-- Info-->
+														<!-- Customer-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Name-->
+															<span class="text-gray-400">To:
+															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+															</span>
+															<!-- Name-->
+															<!-- Label-->
+															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+															<!-- Label-->
 														</div>
-														<!-- Item-->
-
-														<!-- Item-->
-														<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-															<!-- Info-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Wrapper-->
-																<div class="me-3">
-																	<!-- Icon-->
-																	<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																		<img alt="Pic" src="assets/media/avatars/300-17.png">
-																	</div>
-																	<!-- Icon-->
-																	<!-- Title-->
-																	<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">감우성</a>
-																	<span class="badge badge-light-primary ms-2">사원</span>
-																	<!-- Title-->
+														<!-- Customer-->
+													</div>
+													<!-- Item-->
+													<!-- Item-->
+													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+														<!-- Info-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Wrapper-->
+															<div class="me-3">
+																<!-- Icon-->
+																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																	<img alt="Pic" src="assets/media/avatars/300-15.png">
 																</div>
-																<!-- Wrapper-->
-																<!-- Action-->
-																<div class="m-0">
-																	<!-- Menu-->
-																	<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																		data-kt-menu-trigger="click"
-																		data-kt-menu-placement="bottom-end"
-																		data-kt-menu-overflow="true">
-																	<i class="ki-outline ki-dots-square fs-1"></i>
-																	</button>
-																	<!-- Menu 2-->
-																	<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																			</div>
+																<!-- Icon-->
+																<!-- Title-->
+																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">이나영</a>
+																<span class="badge badge-light-primary ms-2">과장</span>
+																<!-- Title-->
+															</div>
+															<!-- Wrapper-->
+															<!-- Action-->
+															<div class="m-0">
+																<!-- Menu-->
+																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																	data-kt-menu-trigger="click"
+																	data-kt-menu-placement="bottom-end"
+																	data-kt-menu-overflow="true">
+																<i class="ki-outline ki-dots-square fs-1"></i>
+																</button>
+																<!-- Menu 2-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
 																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu separator-->
-																		<div class="separator mt-2 opacity-75"></div>
-																		<!-- Menu separator-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				쪽지 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				메일 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
 																	</div>
-																	<!-- Menu 2-->
-																	<!-- Menu-->
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3 mt-4">
+																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
+																		쪽지 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
+																		메일 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
 																</div>
-																<!-- Action-->
+																<!-- Menu 2-->
+																<!-- Menu-->
 															</div>
-															<!-- Info-->
-															<!-- Customer-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Name-->
-																<span class="text-gray-400">To:
-																	<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-																</span>
-																<!-- Name-->
-																<!-- Label-->
-																<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-																<!-- Label-->
-															</div>
-															<!-- Customer-->
+															<!-- Action-->
 														</div>
-														<!-- Item-->
-
-														<!-- Item-->
-														<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-															<!-- Info-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Wrapper-->
-																<div class="me-3">
-																	<!-- Icon-->
-																	<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																		<img alt="Pic" src="assets/media/avatars/300-18.png">
-																	</div>
-																	<!-- Icon-->
-																	<!-- Title-->
-																	<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">이나영</a>
-																	<span class="badge badge-light-primary ms-2">대리</span>
-																	<!-- Title-->
-																</div>
-																<!-- Wrapper-->
-																<!-- Action-->
-																<div class="m-0">
-																	<!-- Menu-->
-																	<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																		data-kt-menu-trigger="click"
-																		data-kt-menu-placement="bottom-end"
-																		data-kt-menu-overflow="true">
-																	<i class="ki-outline ki-dots-square fs-1"></i>
-																	</button>
-																	<!-- Menu 2-->
-																	<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content px-3 py-1">
-																				<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																			</div>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu separator-->
-																		<div class="separator mt-2 opacity-75"></div>
-																		<!-- Menu separator-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				쪽지 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																		<!-- Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				메일 보내기
-																			</a>
-																		</div>
-																		<!-- Menu item-->
-																	</div>
-																	<!-- Menu 2-->
-																	<!-- Menu-->
-																</div>
-																<!-- Action-->
-															</div>
-															<!-- Info-->
-															<!-- Customer-->
-															<div class="d-flex flex-stack mb-1">
-																<!-- Name-->
-																<span class="text-gray-400">To:
-																	<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-																</span>
-																<!-- Name-->
-																<!-- Label-->
-																<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-																<!-- Label-->
-															</div>
-															<!-- Customer-->
+														<!-- Info-->
+														<!-- Customer-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Name-->
+															<span class="text-gray-400">To:
+															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+															</span>
+															<!-- Name-->
+															<!-- Label-->
+															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+															<!-- Label-->
 														</div>
-														<!-- Item-->
+														<!-- Customer-->
+													</div>
+													<!-- Item-->
+													<!-- Item-->
+													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+														<!-- Info-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Wrapper-->
+															<div class="me-3">
+																<!-- Icon-->
+																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																	<img alt="Pic" src="assets/media/avatars/300-16.png">
+																</div>
+																<!-- Icon-->
+																<!-- Title-->
+																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">김원홍</a>
+																<span class="badge badge-light-primary ms-2">대리</span>
+																<!-- Title-->
+															</div>
+															<!-- Wrapper-->
+															<!-- Action-->
+															<div class="m-0">
+																<!-- Menu-->
+																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																	data-kt-menu-trigger="click"
+																	data-kt-menu-placement="bottom-end"
+																	data-kt-menu-overflow="true">
+																<i class="ki-outline ki-dots-square fs-1"></i>
+																</button>
+																<!-- Menu 2-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3 mt-4">
+																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
+																		쪽지 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
+																		메일 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																</div>
+																<!-- Menu 2-->
+																<!-- Menu-->
+															</div>
+															<!-- Action-->
+														</div>
+														<!-- Info-->
+														<!-- Customer-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Name-->
+															<span class="text-gray-400">To:
+															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+															</span>
+															<!-- Name-->
+															<!-- Label-->
+															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+															<!-- Label-->
+														</div>
+														<!-- Customer-->
+													</div>
+													<!-- Item-->
+													<!-- Item-->
+													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+														<!-- Info-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Wrapper-->
+															<div class="me-3">
+																<!-- Icon-->
+																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																	<img alt="Pic" src="assets/media/avatars/300-17.png">
+																</div>
+																<!-- Icon-->
+																<!-- Title-->
+																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">감우성</a>
+																<span class="badge badge-light-primary ms-2">사원</span>
+																<!-- Title-->
+															</div>
+															<!-- Wrapper-->
+															<!-- Action-->
+															<div class="m-0">
+																<!-- Menu-->
+																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																	data-kt-menu-trigger="click"
+																	data-kt-menu-placement="bottom-end"
+																	data-kt-menu-overflow="true">
+																<i class="ki-outline ki-dots-square fs-1"></i>
+																</button>
+																<!-- Menu 2-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3 mt-4">
+																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
+																		쪽지 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
+																		메일 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																</div>
+																<!-- Menu 2-->
+																<!-- Menu-->
+															</div>
+															<!-- Action-->
+														</div>
+														<!-- Info-->
+														<!-- Customer-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Name-->
+															<span class="text-gray-400">To:
+															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+															</span>
+															<!-- Name-->
+															<!-- Label-->
+															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+															<!-- Label-->
+														</div>
+														<!-- Customer-->
+													</div>
+													<!-- Item-->
+													<!-- Item-->
+													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+														<!-- Info-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Wrapper-->
+															<div class="me-3">
+																<!-- Icon-->
+																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																	<img alt="Pic" src="assets/media/avatars/300-18.png">
+																</div>
+																<!-- Icon-->
+																<!-- Title-->
+																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">이나영</a>
+																<span class="badge badge-light-primary ms-2">대리</span>
+																<!-- Title-->
+															</div>
+															<!-- Wrapper-->
+															<!-- Action-->
+															<div class="m-0">
+																<!-- Menu-->
+																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																	data-kt-menu-trigger="click"
+																	data-kt-menu-placement="bottom-end"
+																	data-kt-menu-overflow="true">
+																<i class="ki-outline ki-dots-square fs-1"></i>
+																</button>
+																<!-- Menu 2-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content px-3 py-1">
+																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																		</div>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3 mt-4">
+																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
+																		쪽지 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																	<!-- Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
+																		메일 보내기
+																		</a>
+																	</div>
+																	<!-- Menu item-->
+																</div>
+																<!-- Menu 2-->
+																<!-- Menu-->
+															</div>
+															<!-- Action-->
+														</div>
+														<!-- Info-->
+														<!-- Customer-->
+														<div class="d-flex flex-stack mb-1">
+															<!-- Name-->
+															<span class="text-gray-400">To:
+															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+															</span>
+															<!-- Name-->
+															<!-- Label-->
+															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+															<!-- Label-->
+														</div>
+														<!-- Customer-->
+													</div>
+													<!-- Item-->
 												</div>
 												<!--// List -->
 											</div>
 										</div>
 									</div>
 									<!--// Col -->
-
 									<!-- Col -->
 									<div class="col-md-6">
 										<!-- 일정목록 -->
@@ -1896,56 +2154,56 @@
 													<!-- Nav item -->
 													<li class="nav-item p-0 ms-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_1">
-															<span class="fs-8 fw-semibold">토</span>
-															<span class="fs-7 fw-semibold">8</span>
+														<span class="fs-8 fw-semibold">토</span>
+														<span class="fs-7 fw-semibold">8</span>
 														</a>
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
 													<li class="nav-item p-0 ms-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_2">
-															<span class="fs-8 fw-semibold">일</span>
-															<span class="fs-7 fw-semibold">9</span>
+														<span class="fs-8 fw-semibold">일</span>
+														<span class="fs-7 fw-semibold">9</span>
 														</a>
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
 													<li class="nav-item p-0 ms-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_3">
-															<span class="fs-8 fw-semibold">월</span>
-															<span class="fs-7 fw-semibold">10</span>
+														<span class="fs-8 fw-semibold">월</span>
+														<span class="fs-7 fw-semibold">10</span>
 														</a>
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
 													<li class="nav-item p-0 ms-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning active" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_4">
-															<span class="fs-8 fw-semibold">화</span>
-															<span class="fs-7 fw-semibold">11</span>
+														<span class="fs-8 fw-semibold">화</span>
+														<span class="fs-7 fw-semibold">11</span>
 														</a>
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
 													<li class="nav-item p-0 ms-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_5">
-															<span class="fs-8 fw-semibold">수</span>
-															<span class="fs-7 fw-semibold">12</span>
+														<span class="fs-8 fw-semibold">수</span>
+														<span class="fs-7 fw-semibold">12</span>
 														</a>
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
 													<li class="nav-item p-0 ms-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_6">
-															<span class="fs-8 fw-semibold">목</span>
-															<span class="fs-7 fw-semibold">13</span>
+														<span class="fs-8 fw-semibold">목</span>
+														<span class="fs-7 fw-semibold">13</span>
 														</a>
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
 													<li class="nav-item p-0 ms-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_7">
-															<span class="fs-8 fw-semibold">금</span>
-															<span class="fs-7 fw-semibold">14</span>
+														<span class="fs-8 fw-semibold">금</span>
+														<span class="fs-7 fw-semibold">14</span>
 														</a>
 													</li>
 													<!--// Nav item -->
@@ -2567,264 +2825,6 @@
 											<!--// Card Body -->
 										</div>
 										<!--// 일정목록 -->
-									</div>
-									<!--// Col -->
-
-									<!-- Col -->
-									<div class="col-md-6">
-												<!-- 현재 업무현황 -->
-												<div class="card card-flush h-xl-100">
-													<!--Body-->
-													<div class="card-body p-0">
-														<!--Header-->
-														<div class="px-9 pt-7 card-rounded h-325px w-100 bg-warning" style="background-image:url('assets/media/patterns/vector-1.png')">
-															<!--Heading-->
-															<div class="d-flex flex-stack">
-																<h3 class="m-0 text-white fw-bold fs-3">현재 업무현황</h3>
-																<div class="ms-1">
-																	<!--Menu-->
-																	<button type="button" class="btn btn-sm btn-icon btn-color-white btn-active-white border-0 me-n3" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-																	<i class="ki-duotone ki-category fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>                    </button>
-																	<!--Menu 3-->
-																	<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true">
-																		<!--Heading-->
-																		<div class="menu-item px-3">
-																			<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">
-																				나의업무
-																			</div>
-																		</div>
-																		<!--// Heading-->
-																		<!--Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				일정
-																			</a>
-																		</div>
-																		<!--// Menu item-->
-																		<!--Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link flex-stack px-3">
-																				업무
-																			</a>
-																		</div>
-																		<!--// Menu item-->
-																		<!--Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">
-																				쪽지
-																			</a>
-																		</div>
-																		<!--// Menu item-->
-																		<!--Menu item-->
-																		<div class="menu-item px-3 my-1">
-																			<a href="#" class="menu-link px-3">
-																				자기정보
-																			</a>
-																		</div>
-																		<!--// Menu item-->
-																	</div>
-																	<!--// Menu 3-->
-																	<!--// Menu-->
-																</div>
-															</div>
-															<!--// Heading-->
-
-															<!--Items-->
-															<div class="bg-body shadow-sm card-rounded my-5 px-6 py-9">
-																<!--Item-->
-																<div class="d-flex align-items-center mb-6">
-																	<!--Symbol-->
-																	<div class="symbol symbol-45px w-40px me-5">
-																		<span class="symbol-label bg-lighten">
-																		<i class="ki-duotone ki-compass fs-1"><span class="path1"></span><span class="path2"></span></i>
-																		</span>
-																	</div>
-																	<!--// Symbol-->
-																	<!--Description-->
-																	<div class="d-flex align-items-center flex-wrap w-100">
-																		<!--Title-->
-																		<div class="mb-1 pe-3 flex-grow-1">
-																			<a href="#" class="fs-5 text-gray-800 text-hover-primary fw-bold">총업무처리</a>
-																			<div class="text-gray-400 fw-semibold fs-7">613</div>
-																		</div>
-																		<!--// Title-->
-																		<!--Label-->
-																		<div class="d-flex align-items-center">
-																			<div class="fw-bold fs-5 text-gray-800 pe-1">90%</div>
-																			<i class="ki-duotone ki-arrow-up fs-5 text-success ms-1"><span class="path1"></span><span class="path2"></span></i>
-																		</div>
-																		<!--// Label-->
-																	</div>
-																	<!--// Description-->
-																</div>
-																<!--// Item-->
-																<!--Item-->
-																<div class="d-flex align-items-center mb-6">
-																	<!--Symbol-->
-																	<div class="symbol symbol-45px w-40px me-5">
-																		<span class="symbol-label bg-lighten">
-																		<i class="ki-duotone ki-element-11 fs-1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
-																		</span>
-																	</div>
-																	<!--// Symbol-->
-																	<!--Description-->
-																	<div class="d-flex align-items-center flex-wrap w-100">
-																		<!--Title-->
-																		<div class="mb-1 pe-3 flex-grow-1">
-																			<a href="#" class="fs-5 text-gray-800 text-hover-primary fw-bold">총접수처리</a>
-																			<div class="text-gray-400 fw-semibold fs-7">288</div>
-																		</div>
-																		<!--// Title-->
-																		<!--Label-->
-																		<div class="d-flex align-items-center">
-																			<div class="fw-bold fs-5 text-gray-800 pe-1">45%</div>
-																			<i class="ki-duotone ki-arrow-down fs-5 text-danger ms-1"><span class="path1"></span><span class="path2"></span></i>
-																		</div>
-																		<!--// Label-->
-																	</div>
-																	<!--// Description-->
-																</div>
-																<!--// Item-->
-																<!--Item-->
-																<div class="d-flex align-items-center mb-6">
-																	<!--Symbol-->
-																	<div class="symbol symbol-45px w-40px me-5">
-																		<span class="symbol-label bg-lighten">
-																		<i class="ki-duotone ki-graph-up fs-1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>
-																		</span>
-																	</div>
-																	<!--// Symbol-->
-																	<!--Description-->
-																	<div class="d-flex align-items-center flex-wrap w-100">
-																		<!--Title-->
-																		<div class="mb-1 pe-3 flex-grow-1">
-																			<a href="#" class="fs-5 text-gray-800 text-hover-primary fw-bold">진행업무</a>
-																			<div class="text-gray-400 fw-semibold fs-7">52</div>
-																		</div>
-																		<!--// Title-->
-																		<!--Label-->
-																		<div class="d-flex align-items-center">
-																			<div class="fw-bold fs-5 text-gray-800 pe-1">25%</div>
-																			<i class="ki-duotone ki-arrow-up fs-5 text-success ms-1"><span class="path1"></span><span class="path2"></span></i>
-																		</div>
-																		<!--// Label-->
-																	</div>
-																	<!--// Description-->
-																</div>
-																<!--// Item-->
-																<!--Item-->
-																<div class="d-flex align-items-center ">
-																	<!--Symbol-->
-																	<div class="symbol symbol-45px w-40px me-5">
-																		<span class="symbol-label bg-lighten">
-																		<i class="ki-duotone ki-document fs-1"><span class="path1"></span><span class="path2"></span></i>
-																		</span>
-																	</div>
-																	<!--// Symbol-->
-																	<!--Description-->
-																	<div class="d-flex align-items-center flex-wrap w-100">
-																		<!--Title-->
-																		<div class="mb-1 pe-3 flex-grow-1">
-																			<a href="#" class="fs-5 text-gray-800 text-hover-primary fw-bold">진행접수</a>
-																			<div class="text-gray-400 fw-semibold fs-7">7</div>
-																		</div>
-																		<!--// Title-->
-																		<!--Label-->
-																		<div class="d-flex align-items-center">
-																			<div class="fw-bold fs-5 text-gray-800 pe-1">10%</div>
-																			<i class="ki-duotone ki-arrow-down fs-5 text-danger ms-1"><span class="path1"></span><span class="path2"></span></i>
-																		</div>
-																		<!--// Label-->
-																	</div>
-																	<!--// Description-->
-																</div>
-																<!--// Item-->
-															</div>
-															<!--// Items-->
-														</div>
-														<!--// Header-->
-
-														<!--Carousel-->
-														<div class="mx-9 mt-16">
-															<div class="carousel carousel-custom carousel-stretch slide" data-bs-ride="carousel" data-bs-interval="8000">
-																<!--Heading-->
-																<div class="d-flex flex-stack align-items-center flex-wrap">
-																	<ol class="p-0 m-0 carousel-indicators carousel-indicators-dots">
-																		<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="0" class="ms-1 active"></li>
-																		<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="1" class="ms-1"></li>
-																		<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="2" class="ms-1"></li>
-																	</ol>
-																</div>
-																<!--// Heading-->
-
-																<!--Carousel inner-->
-																<div class="carousel-inner pt-2">
-																	<!--Item-->
-																	<div class="carousel-item active">
-																		<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_4_1.jpg" class="w-100" alt=""></a>
-																	</div>
-																	<!--// Item-->
-
-																	<!--Item-->
-																	<div class="carousel-item">
-																		<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_5_1.jpg" class="w-100" alt=""></a>
-																	</div>
-																	<!--// Item-->
-
-																	<!--Item-->
-																	<div class="carousel-item">
-																		<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_6_1.jpg" class="w-100" alt=""></a>
-																	</div>
-																	<!--// Item-->
-																</div>
-																<!--// Carousel inner-->
-															</div>
-														</div>
-														<!--// Carousel-->
-													</div>
-													<!--// Body-->
-												</div>
-												<!-- // 현재 업무현황 -->
-									</div>
-									<!--// Col -->
-
-									<!-- Col -->
-									<div class="col-md-6">
-												<!-- 사용자 정보 -->
-												<div class="card card-flush h-xl-100 bgi-size-contain bgi-position-x-end mb-2 mb-xl-4 bg-warning" style="background-image:url('assets/media/patterns/vector-1.png')">
-													<!-- Header -->
-													<div class="card-header pt-5">
-														<div class="card-title d-flex flex-column">
-															<span class="fs-2x fw-semibold text-white me-2 lh-1 ls-n2">김지훈</span>
-															<span class="text-white pt-1 fw-semibold fs-7">과장</span>
-														</div>
-													</div>
-													<!--// Header -->
-													<!-- Card body -->
-													<div class="card-body d-flex align-items-center pt-0">
-														<!-- Progress -->
-														<div class="d-flex flex-column mt-3 w-100">
-															<div class="d-flex justify-content-between pb-2">
-																<!-- Photo -->
-																<div class="bg-white symbol symbol-80px symbol-lg-150px symbol-circle mb-4">
-																	<img src="assets/media/avatars/300-5.png" class="p-2" alt="">
-																</div>
-																<!--// Photo -->
-															</div>
-															<div class="d-flex justify-content-between text-white pt-1 fw-semibold fs-5">비즈스토리 사용내역</div>
-															<div class="d-flex justify-content-between fw-semibold text-white opacity-75 pt-1 fw-semibold fs-8 w-100 mt-auto mb-2">
-																<span>시작일/만기일: 2012.02.20/2017.02.20</span>
-																<span>62%</span>
-															</div>
-															<div class="h-8px w-100 bg-white bg-opacity-50 rounded">
-																<div class="bg-white rounded h-8px" role="progressbar" style="width: 62%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-														<!--// Progress -->
-													</div>
-													<!--// Card body -->
-												</div>
-												<!--// 사용자 정보 -->
 									</div>
 									<!--// Col -->
 								</div>

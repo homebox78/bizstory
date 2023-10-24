@@ -39,10 +39,6 @@
     font-display: swap;
 }
 
-* {
-	transition: all .6s ease;
-}
-
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -44752,6 +44748,12 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
 .bg-body {
   --bs-bg-rgb-color: var(--bs-body-bg-rgb);
   background-color: var(--bs-body-bg) !important;
+}
+
+[class*=" border-hover-"],
+[class*=" text-hover-"],
+[class*=" bg-hover-"] {
+	transition: all .6s ease;
 }
 
 
