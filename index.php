@@ -1,6 +1,6 @@
 <?php
-include_once("header.php");
-?>
+	include_once("header.php");
+	?>
 <!-- Body -->
 <body id="kt_app_body" data-kt-app-layout="dark-sidebar" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
 	<!-- App -->
@@ -8,12 +8,12 @@ include_once("header.php");
 		<!-- Page -->
 		<div class="app-page  flex-column flex-column-fluid " id="kt_app_page">
 			<?php
-			include_once("navi.php");
+				include_once("navi.php");
 			?>
 			<!-- Wrapper -->
 			<div class="app-wrapper  flex-column flex-row-fluid " id="kt_app_wrapper">
 				<?php
-				include_once("sidebar.php");
+					include_once("sidebar.php");
 				?>
 				<!-- Main -->
 				<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
@@ -758,8 +758,8 @@ include_once("header.php");
 															<!--Tab item-->
 															<li class="nav-item">
 																<a class="nav-link text-active-primary d-flex align-items-center pb-4 active" data-bs-toggle="tab" href="#workList1">
-																	<i class="ki-duotone ki-home fw-semibold fs-4 me-1"></i> 접수 미처리현황
-																	<span class="fs-6 text-gray-400 ms-2">11</span>
+																	<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 미처리현황
+																	<span class="fs-6 text-gray-400 ms-2">19</span>
 																</a>
 															</li>
 															<!--// Tab item-->
@@ -767,8 +767,8 @@ include_once("header.php");
 															<!--Tab item-->
 															<li class="nav-item">
 																<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#workList2">
-																	<i class="ki-duotone ki-home fw-semibold fs-4 me-1"></i> 업무 리스트
-																	<span class="fs-6 text-gray-400 ms-2">08</span>
+																	<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 리스트
+																	<span class="fs-6 text-gray-400 ms-2">8</span>
 																</a>
 															</li>
 															<!--// Tab item-->
@@ -776,17 +776,17 @@ include_once("header.php");
 															<!--Tab item-->
 															<li class="nav-item">
 																<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#workList3">
-																	<i class="ki-duotone ki-home fw-semibold fs-4 me-1"></i> 프로젝트 리스트
-																	<span class="fs-6 text-gray-400 ms-2">07</span>
+																	<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 리스트
+																	<span class="fs-6 text-gray-400 ms-2">7</span>
 																</a>
 															</li>
 															<!--// Tab item-->
 														</ul>
 														<!--// Tabs-->
 													</div>
-													<div class="card-body pt-0 px-8">
+													<div class="card-body pt-0 ps-8 pe-0">
 														<!--Tab content-->
-														<div class="tab-content hover-scroll-overlay-y" style="height: 490px">
+														<div class="tab-content hover-scroll-overlay-y pe-4 me-4" style="height: 400px">
 															<!--Tab pane-->
 															<div class="tab-pane fade show active" id="workList1" role="tabpanel">
 																<!-- 접수 미처리현황 -->
@@ -795,7 +795,7 @@ include_once("header.php");
 																	<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																		<!-- 등록자, 분류 -->
 																		<div class="d-flex flex-stack mb-3">
-																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">44동원대학교 오정민</span><br />(2023-04-10 14:27)</div>
+																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">동원대학교 오정민</span><br />(2023-04-10 14:27)</div>
 																			<div class="badge badge-danger fw-normal py-2 px-3">웹사이트관련</div>
 																		</div>
 																		<!--// 등록자, 분류 -->
@@ -881,7 +881,7 @@ include_once("header.php");
 																	<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																		<!-- 등록자, 분류 -->
 																		<div class="d-flex flex-stack mb-3">
-																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">1111동원대학교 오정민</span><br />(2023-04-10 14:27)</div>
+																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">동원대학교 오정민</span><br />(2023-04-10 14:27)</div>
 																			<div class="badge badge-danger fw-normal py-2 px-3">웹사이트관련</div>
 																		</div>
 																		<!--// 등록자, 분류 -->
@@ -923,47 +923,7 @@ include_once("header.php");
 																	</div>
 																	<!--// Loop -->
 
-																	<!-- Loop -->
-																	<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
-																		<!-- 등록자, 분류 -->
-																		<div class="d-flex flex-stack mb-3">
-																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">덕성여자대학교 엄인미</span><br />(2023-04-05 18:17)</div>
-																			<div class="badge badge-primary fw-normal py-2 px-3">문의사항관련</div>
-																		</div>
-																		<!--// 등록자, 분류 -->
-																		<!-- 제목 -->
-																		<div class="mb-2 ellipsis-1">
-																			<a href="#" class="fs-5 fw-semibold mb-1 text-gray-900 text-hover-primary">지역사회와 덕성 컨텐츠 페이지 수정 및 추가</a>
-																		</div>
-																		<!--// 제목 -->
-																		<!-- 내용 -->
-																		<div class="fs-7 text-gray-600 mb-5 ellipsis-2">1) 지역사회와 덕성 : 표에 정부기관 / 봉사 / 장애 세가지 삭제<br />2) 하단 메뉴 '업무협약'에  [첨부파일1. 업무협약] 참고하여 사진 및 내용 추가</div>
-																		<!--// 내용 -->
-																		<!-- 담당자, 기타 -->
-																		<div class="d-flex flex-stack flex-wrapr">
-																			<!-- 담당자 -->
-																			<div class="symbol-group symbol-hover my-1">
-																				<a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="이지환">
-																				<img alt="Pic" src="assets/media/avatars/300-11.png">
-																				</a>
-																			</div>
-																			<!--// 담당자 -->
-																			<!-- 기타 -->
-																			<div class="d-flex my-1">
-																				<!-- 첨부파일 -->
-																				<div class="border border-dashed border-gray-300 rounded d-flex align-items-center py-2 px-3">
-																					<i class="ki-duotone ki-paper-clip fs-3"></i>
-																					<span class="ms-1 fs-7 fw-semibold text-gray-600">1</span>
-																				</div>
-																				<!--// 첨부파일 -->
-																			</div>
-																			<!--// 기타 -->
-																		</div>
-																		<!--// 담당자, 기타 -->
-																	</div>
-																	<!--// Loop -->
-
-																	<a href="#" class="btn btn-warning er w-100 fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 접수 등록</a>
+																	<a href="#" class="btn btn-warning er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 접수 등록</a>
 																</div>
 																<!--// 접수 미처리현황 -->
 															</div>
@@ -1116,52 +1076,7 @@ include_once("header.php");
 																	</div>
 																	<!--// Loop -->
 
-																	<!-- Loop -->
-																	<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
-																		<!-- 등록자, 분류 -->
-																		<div class="d-flex flex-stack mb-3">
-																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">장영훈 부장</span><br />(2023-04-03 16:57)</div>
-																			<div>
-																				<span class="badge badge-info fw-normal py-2 px-3">승인</span>
-																			</div>
-																		</div>
-																		<!--// 등록자, 분류 -->
-																		<!-- 제목 -->
-																		<div class="mb-2 ellipsis-1">
-																			<a href="#" class="fs-5 fw-semibold mb-1 text-gray-900 text-hover-primary">[영업업무]2020년 견적석 발송내역</a>
-																		</div>
-																		<!--// 제목 -->
-																		<!-- 내용 -->
-																		<div class="fs-7 text-gray-600 mb-5 ellipsis-2">1. 발급 기관명 (업체명)<br />2. 담당자 명함 (없을시 이름, 연락처, 이메일 기입)<br />3. 발급한 견적서 엑셀파일 등록</div>
-																		<!--// 내용 -->
-																		<!-- 담당자, 기타 -->
-																		<div class="d-flex flex-stack flex-wrapr">
-																			<!-- 담당자 -->
-																			<div class="symbol-group symbol-hover my-1">
-																				<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김재명 이사">
-																					<span class="symbol-label bg-warning text-inverse-warning fw-semibold">K</span>
-																				</div>
-																				<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="이철민 부장">
-																					<img alt="Pic" src="assets/media/avatars/300-17.png">
-																				</div>
-																			</div>
-																			<!--// 담당자 -->
-																			<!-- 기타 -->
-																			<div class="d-flex my-1">
-																				<!-- 코멘트 -->
-																				<div class="border border-dashed border-gray-300 d-flex align-items-center rounded py-2 px-3 ms-3">
-																					<i class="ki-duotone ki-message-text-2 fs-3"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
-																					<span class="ms-1 fs-7 fw-semibold text-gray-600">3</span>
-																				</div>
-																				<!--// 코멘트 -->
-																			</div>
-																			<!--// 기타 -->
-																		</div>
-																		<!--// 담당자, 기타 -->
-																	</div>
-																	<!--// Loop -->
-
-																	<a href="#" class="btn btn-primary er w-100 fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 업무 등록</a>
+																	<a href="#" class="btn btn-primary er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 업무 등록</a>
 																</div>
 																<!--// 업무 리스트 -->
 															</div>
@@ -1324,56 +1239,7 @@ include_once("header.php");
 																	</div>
 																	<!--// Loop -->
 
-																	<!-- Loop -->
-																	<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
-																		<!-- 등록자, 분류 -->
-																		<div class="d-flex flex-stack mb-3">
-																			<div class="text-gray-400 fw-normal fs-8"><span class=" fs-6 text-dark me-1">이영훈 과장</span><br />(2023-02-28 11:28)</div>
-																			<div class="badge badge-primary fw-normal py-2 px-3">CMS구축사업</div>
-																		</div>
-																		<!--// 등록자, 분류 -->
-																		<!-- 제목 -->
-																		<div class="mb-2 ellipsis-1">
-																			<a href="#" class="fs-5 fw-semibold mb-1 text-gray-900 text-hover-primary">한국가스공사 동반성장 홈페이지 구축 사업</a>
-																		</div>
-																		<!--// 제목 -->
-																		<!-- 내용 -->
-																		<div class="fs-7 text-gray-600 mb-5 ellipsis-2">가. 건명 : 동방성장센터 홈페이지 구축 사업<br />나. 사업예산(기초금액) : 104,500,000원(VAT 포함)</div>
-																		<!--// 내용 -->
-																		<!-- 담당자, 기타 -->
-																		<div class="d-flex flex-stack flex-wrapr">
-																			<!-- 담당자 -->
-																			<div class="symbol-group symbol-hover my-1">
-																				<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="강한나 주임">
-																					<img alt="Pic" src="assets/media/avatars/300-18.png">
-																				</div>
-																				<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="주영호 과장">
-																					<img alt="Pic" src="assets/media/avatars/300-19.png">
-																				</div>
-																				<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김지애 사원">
-																					<img alt="Pic" src="assets/media/avatars/300-20.png">
-																				</div>
-																				<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="강현성 대리">
-																					<img alt="Pic" src="assets/media/avatars/300-21.png">
-																				</div>
-																			</div>
-																			<!--// 담당자 -->
-																			<!-- 기타 -->
-																			<div class="d-flex my-1">
-																				<!-- 첨부파일 -->
-																				<div class="border border-dashed border-gray-300 rounded d-flex align-items-center py-2 px-3">
-																					<i class="ki-duotone ki-paper-clip fs-3"></i>
-																					<span class="ms-1 fs-7 fw-semibold text-gray-600">3</span>
-																				</div>
-																				<!--// 첨부파일 -->
-																			</div>
-																			<!--// 기타 -->
-																		</div>
-																		<!--// 담당자, 기타 -->
-																	</div>
-																	<!--// Loop -->
-
-																	<a href="#" class="btn btn-success er w-100 fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 프로젝트 등록</a>
+																	<a href="#" class="btn btn-success er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 프로젝트 등록</a>
 																</div>
 																<!--// 프로젝트 리스트 -->
 															</div>
@@ -1392,8 +1258,8 @@ include_once("header.php");
 															<!--Tab item-->
 															<li class="nav-item">
 																<a class="nav-link text-active-primary d-flex align-items-center pb-4 active" data-bs-toggle="tab" href="#timelineList1">
-																	<i class="ki-duotone ki-home fw-semibold fs-4 me-1"></i> 접수 이력
-																	<span class="fs-6 text-gray-400 ms-2">11</span>
+																	<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 이력
+																	<span class="fs-6 text-gray-400 ms-2">13</span>
 																</a>
 															</li>
 															<!--// Tab item-->
@@ -1401,8 +1267,8 @@ include_once("header.php");
 															<!--Tab item-->
 															<li class="nav-item">
 																<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#timelineList2">
-																	<i class="ki-duotone ki-home fw-semibold fs-4 me-1"></i> 업무 이력
-																	<span class="fs-6 text-gray-400 ms-2">08</span>
+																	<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 이력
+																	<span class="fs-6 text-gray-400 ms-2">21</span>
 																</a>
 															</li>
 															<!--// Tab item-->
@@ -1410,17 +1276,17 @@ include_once("header.php");
 															<!--Tab item-->
 															<li class="nav-item">
 																<a class="nav-link text-active-primary d-flex align-items-center pb-4" data-bs-toggle="tab" href="#timelineList3">
-																	<i class="ki-duotone ki-home fw-semibold fs-4 me-1"></i> 프로젝트 이력
-																	<span class="fs-6 text-gray-400 ms-2">07</span>
+																	<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 이력
+																	<span class="fs-6 text-gray-400 ms-2">16</span>
 																</a>
 															</li>
 															<!--// Tab item-->
 														</ul>
 														<!--// Tabs-->
 													</div>
-													<div class="card-body pt-0 px-8">
+													<div class="card-body pt-0 ps-8 pe-0">
 														<!--Tab content-->
-														<div class="tab-content hover-scroll-overlay-y" style="height: 490px">
+														<div class="tab-content hover-scroll-overlay-y pe-4 me-4" style="height: 400px">
 															<!--Tab pane-->
 															<div class="tab-pane fade show active" id="timelineList1" role="tabpanel">
 																<!-- Timeline -->
@@ -1573,23 +1439,6 @@ include_once("header.php");
 																			<div class="w-75 ellipsis-3">
 																				<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[센스리더]</span> <span class="me-1">홈페이지>정보공개>정보목록</span></a>
 																				<div class="fs-8">작업이 완료되었습니다.</div>
-																			</div>
-																			<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
-																		</div>
-																	</div>
-																	<!--// Item -->
-																	<!-- Item -->
-																	<div class="timeline-item d-flex align-items-center">
-																		<div class="timeline-label"></div>
-																		<div class="timeline-badge">
-																			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="박미주">
-																				<img src="assets/media/avatars/300-20.png" alt="">
-																			</div>
-																		</div>
-																		<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
-																			<div class="w-75 ellipsis-3">
-																				<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[건소프트]</span> <span class="me-1">배너 추가 및 수정 요청</span></a>
-																				<div class="fs-8">승인되었습니다.</div>
 																			</div>
 																			<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
 																		</div>
@@ -1757,23 +1606,6 @@ include_once("header.php");
 																		</div>
 																	</div>
 																	<!--// Item -->
-																	<!-- Item -->
-																	<div class="timeline-item d-flex align-items-center">
-																		<div class="timeline-label"></div>
-																		<div class="timeline-badge">
-																			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="박미주">
-																				<img src="assets/media/avatars/300-20.png" alt="">
-																			</div>
-																		</div>
-																		<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
-																			<div class="w-75 ellipsis-3">
-																				<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[건소프트]</span> <span class="me-1">배너 추가 및 수정 요청</span></a>
-																				<div class="fs-8">승인되었습니다.</div>
-																			</div>
-																			<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
-																		</div>
-																	</div>
-																	<!--// Item -->
 																</div>
 																<!--// Timeline -->
 															</div>
@@ -1931,23 +1763,6 @@ include_once("header.php");
 																			<div class="w-75 ellipsis-3">
 																				<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[센스리더]</span> <span class="me-1">홈페이지>정보공개>정보목록</span></a>
 																				<div class="fs-8">작업이 완료되었습니다.</div>
-																			</div>
-																			<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
-																		</div>
-																	</div>
-																	<!--// Item -->
-																	<!-- Item -->
-																	<div class="timeline-item d-flex align-items-center">
-																		<div class="timeline-label"></div>
-																		<div class="timeline-badge">
-																			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="박미주">
-																				<img src="assets/media/avatars/300-20.png" alt="">
-																			</div>
-																		</div>
-																		<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
-																			<div class="w-75 ellipsis-3">
-																				<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[건소프트]</span> <span class="me-1">배너 추가 및 수정 요청</span></a>
-																				<div class="fs-8">승인되었습니다.</div>
 																			</div>
 																			<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
 																		</div>
@@ -2651,7 +2466,7 @@ include_once("header.php");
 					</div>
 					<!--// Content wrapper -->
 					<?php
-					include_once("footer.php");
+						include_once("footer.php");
 					?>
 				</div>
 				<!--// Main -->
@@ -2662,7 +2477,7 @@ include_once("header.php");
 	</div>
 	<!--// App -->
 	<?php
-	include_once("modal.php");
+		include_once("modal.php");
 	?>
 </body>
 <!--// Body -->
