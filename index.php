@@ -1214,196 +1214,636 @@
 											<div class="col-md-6">
 												<div class="card card-flush h-xl-100">
 													<!-- Col header -->
-													<div class="card-header pt-6 px-6">
-														<div class="fw-semibold fs-4">
-															최근접속 회원정보
+													<div class="card-header pt-6 px-8">
+														<!-- Title-->
+														<h3 class="card-title align-items-start flex-column">
+															<span class="fw-semibold fs-4">최근접속 회원정보</span>
+														</h3>
+														<!-- Title-->
+
+														<!-- Toolbar-->
+														<div class="card-toolbar">
 															<span class="fs-6 text-gray-400 ms-2">10</span>
 														</div>
+														<!-- Toolbar-->
 													</div>
 													<!--// Col header -->
 													<div class="card-body pt-0 px-0">
-														<div class="px-9 hover-scroll-overlay-y pe-7 me-3 mb-2" style="height: 300px">
-															<!-- List -->
-															<div class="me-n7 pe-7">
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-13.png">
+														<!-- List -->
+														<div class="px-8 hover-scroll-overlay-y pe-4 me-4 mb-2" style="height: 320px">
+																<!-- Item-->
+																<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4">
+																	<!-- Info-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Wrapper-->
+																		<div class="me-3">
+																			<!-- Icon-->
+																			<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																				<img alt="Pic" src="assets/media/avatars/300-13.png">
+																			</div>
+																			<!-- Icon-->
+																			<!-- Title-->
+																			<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">김원홍</a>
+																			<span class="badge badge-light-primary ms-2">개발이사</span>
+																			<!-- Title-->
 																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			김원홍
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
+																		<!-- Wrapper-->
+																		<!-- Action-->
+																		<div class="m-0">
+																			<!-- Menu-->
+																			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																				data-kt-menu-trigger="click"
+																				data-kt-menu-placement="bottom-end"
+																				data-kt-menu-overflow="true">
+																			<i class="ki-outline ki-dots-square fs-1"></i>
+																			</button>
+																			<!-- Menu 2-->
+																			<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu separator-->
+																				<div class="separator mt-2 opacity-75"></div>
+																				<!-- Menu separator-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						쪽지 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						메일 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																			</div>
+																			<!-- Menu 2-->
+																			<!-- Menu-->
 																		</div>
+																		<!-- Action-->
 																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
+																	<!-- Info-->
+																	<!-- Customer-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Name-->
+																		<span class="text-gray-400">To:
+																			<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+																		</span>
+																		<!-- Name-->
+																		<!-- Label-->
+																		<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+																		<!-- Label-->
 																	</div>
+																	<!-- Customer-->
 																</div>
-																<!--// User -->
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-14.png">
+																<!-- Item-->
+
+																<!-- Item-->
+																<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4">
+																	<!-- Info-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Wrapper-->
+																		<div class="me-3">
+																			<!-- Icon-->
+																			<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																				<img alt="Pic" src="assets/media/avatars/300-14.png">
+																			</div>
+																			<!-- Icon-->
+																			<!-- Title-->
+																			<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">감우성</a>
+																			<span class="badge badge-light-primary ms-2">부장</span>
+																			<!-- Title-->
 																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			감우성
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
+																		<!-- Wrapper-->
+																		<!-- Action-->
+																		<div class="m-0">
+																			<!-- Menu-->
+																			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																				data-kt-menu-trigger="click"
+																				data-kt-menu-placement="bottom-end"
+																				data-kt-menu-overflow="true">
+																			<i class="ki-outline ki-dots-square fs-1"></i>
+																			</button>
+																			<!-- Menu 2-->
+																			<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu separator-->
+																				<div class="separator mt-2 opacity-75"></div>
+																				<!-- Menu separator-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						쪽지 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						메일 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																			</div>
+																			<!-- Menu 2-->
+																			<!-- Menu-->
 																		</div>
+																		<!-- Action-->
 																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
+																	<!-- Info-->
+																	<!-- Customer-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Name-->
+																		<span class="text-gray-400">To:
+																			<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+																		</span>
+																		<!-- Name-->
+																		<!-- Label-->
+																		<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+																		<!-- Label-->
 																	</div>
+																	<!-- Customer-->
 																</div>
-																<!--// User -->
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-15.png">
+																<!-- Item-->
+
+																<!-- Item-->
+																<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4">
+																	<!-- Info-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Wrapper-->
+																		<div class="me-3">
+																			<!-- Icon-->
+																			<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																				<img alt="Pic" src="assets/media/avatars/300-15.png">
+																			</div>
+																			<!-- Icon-->
+																			<!-- Title-->
+																			<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">이나영</a>
+																			<span class="badge badge-light-primary ms-2">과장</span>
+																			<!-- Title-->
 																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			이나영
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
+																		<!-- Wrapper-->
+																		<!-- Action-->
+																		<div class="m-0">
+																			<!-- Menu-->
+																			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																				data-kt-menu-trigger="click"
+																				data-kt-menu-placement="bottom-end"
+																				data-kt-menu-overflow="true">
+																			<i class="ki-outline ki-dots-square fs-1"></i>
+																			</button>
+																			<!-- Menu 2-->
+																			<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu separator-->
+																				<div class="separator mt-2 opacity-75"></div>
+																				<!-- Menu separator-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						쪽지 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						메일 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																			</div>
+																			<!-- Menu 2-->
+																			<!-- Menu-->
 																		</div>
+																		<!-- Action-->
 																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
+																	<!-- Info-->
+																	<!-- Customer-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Name-->
+																		<span class="text-gray-400">To:
+																			<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+																		</span>
+																		<!-- Name-->
+																		<!-- Label-->
+																		<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+																		<!-- Label-->
 																	</div>
+																	<!-- Customer-->
 																</div>
-																<!--// User -->
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-16.png">
+																<!-- Item-->
+
+																<!-- Item-->
+																<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4">
+																	<!-- Info-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Wrapper-->
+																		<div class="me-3">
+																			<!-- Icon-->
+																			<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																				<img alt="Pic" src="assets/media/avatars/300-16.png">
+																			</div>
+																			<!-- Icon-->
+																			<!-- Title-->
+																			<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">김원홍</a>
+																			<span class="badge badge-light-primary ms-2">대리</span>
+																			<!-- Title-->
 																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			장은주
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
+																		<!-- Wrapper-->
+																		<!-- Action-->
+																		<div class="m-0">
+																			<!-- Menu-->
+																			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																				data-kt-menu-trigger="click"
+																				data-kt-menu-placement="bottom-end"
+																				data-kt-menu-overflow="true">
+																			<i class="ki-outline ki-dots-square fs-1"></i>
+																			</button>
+																			<!-- Menu 2-->
+																			<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu separator-->
+																				<div class="separator mt-2 opacity-75"></div>
+																				<!-- Menu separator-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						쪽지 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						메일 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																			</div>
+																			<!-- Menu 2-->
+																			<!-- Menu-->
 																		</div>
+																		<!-- Action-->
 																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
+																	<!-- Info-->
+																	<!-- Customer-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Name-->
+																		<span class="text-gray-400">To:
+																			<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+																		</span>
+																		<!-- Name-->
+																		<!-- Label-->
+																		<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+																		<!-- Label-->
 																	</div>
+																	<!-- Customer-->
 																</div>
-																<!--// User -->
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-17.png">
+																<!-- Item-->
+
+																<!-- Item-->
+																<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4">
+																	<!-- Info-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Wrapper-->
+																		<div class="me-3">
+																			<!-- Icon-->
+																			<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																				<img alt="Pic" src="assets/media/avatars/300-17.png">
+																			</div>
+																			<!-- Icon-->
+																			<!-- Title-->
+																			<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">감우성</a>
+																			<span class="badge badge-light-primary ms-2">사원</span>
+																			<!-- Title-->
 																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			이동현
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
+																		<!-- Wrapper-->
+																		<!-- Action-->
+																		<div class="m-0">
+																			<!-- Menu-->
+																			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																				data-kt-menu-trigger="click"
+																				data-kt-menu-placement="bottom-end"
+																				data-kt-menu-overflow="true">
+																			<i class="ki-outline ki-dots-square fs-1"></i>
+																			</button>
+																			<!-- Menu 2-->
+																			<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu separator-->
+																				<div class="separator mt-2 opacity-75"></div>
+																				<!-- Menu separator-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						쪽지 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						메일 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																			</div>
+																			<!-- Menu 2-->
+																			<!-- Menu-->
 																		</div>
+																		<!-- Action-->
 																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
+																	<!-- Info-->
+																	<!-- Customer-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Name-->
+																		<span class="text-gray-400">To:
+																			<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+																		</span>
+																		<!-- Name-->
+																		<!-- Label-->
+																		<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+																		<!-- Label-->
 																	</div>
+																	<!-- Customer-->
 																</div>
-																<!--// User -->
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-18.png">
+																<!-- Item-->
+
+																<!-- Item-->
+																<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4">
+																	<!-- Info-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Wrapper-->
+																		<div class="me-3">
+																			<!-- Icon-->
+																			<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
+																				<img alt="Pic" src="assets/media/avatars/300-18.png">
+																			</div>
+																			<!-- Icon-->
+																			<!-- Title-->
+																			<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">이나영</a>
+																			<span class="badge badge-light-primary ms-2">대리</span>
+																			<!-- Title-->
 																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			김섬희
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
+																		<!-- Wrapper-->
+																		<!-- Action-->
+																		<div class="m-0">
+																			<!-- Menu-->
+																			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+																				data-kt-menu-trigger="click"
+																				data-kt-menu-placement="bottom-end"
+																				data-kt-menu-overflow="true">
+																			<i class="ki-outline ki-dots-square fs-1"></i>
+																			</button>
+																			<!-- Menu 2-->
+																			<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<div class="menu-content px-3 py-1">
+																						<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
+																					</div>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu separator-->
+																				<div class="separator mt-2 opacity-75"></div>
+																				<!-- Menu separator-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						쪽지 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																				<!-- Menu item-->
+																				<div class="menu-item px-3">
+																					<a href="#" class="menu-link px-3">
+																						메일 보내기
+																					</a>
+																				</div>
+																				<!-- Menu item-->
+																			</div>
+																			<!-- Menu 2-->
+																			<!-- Menu-->
 																		</div>
+																		<!-- Action-->
 																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
+																	<!-- Info-->
+																	<!-- Customer-->
+																	<div class="d-flex flex-stack mb-1">
+																		<!-- Name-->
+																		<span class="text-gray-400">To:
+																			<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
+																		</span>
+																		<!-- Name-->
+																		<!-- Label-->
+																		<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
+																		<!-- Label-->
 																	</div>
+																	<!-- Customer-->
 																</div>
-																<!--// User -->
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-19.png">
-																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			강찬웅
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
-																		</div>
-																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
-																	</div>
-																</div>
-																<!--// User -->
-																<!-- User -->
-																<div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-35px symbol-circle">
-																			<img alt="Pic" src="assets/media/avatars/300-20.png">
-																		</div>
-																		<div class="ms-6">
-																			<a href="#" class="d-flex align-items-center fs-5 fw-semibold text-dark text-hover-primary">
-																			김지현
-																			<span class="badge badge-light fs-8 fw-semibold ms-2">개발이사</span>
-																			</a>
-																			<div class="text-muted">smith@bizstory.co.kr</div>
-																		</div>
-																	</div>
-																	<div class="d-flex">
-																		<div class="text-end">
-																			<div class="fs-7 text-dark">총 업무처리 : 16</div>
-																			<div class="fs-7 text-dark">총 접수처리 : 20</div>
-																		</div>
-																	</div>
-																</div>
-																<!--// User -->
-															</div>
-															<!--// List -->
+																<!-- Item-->
 														</div>
+														<!--// List -->
 													</div>
 												</div>
 											</div>
@@ -1568,6 +2008,33 @@
 																	<a href="#" class="btn btn-sm btn-light">보기</a>
 																</div>
 																<!--// Loop -->
+																<!-- Loop -->
+																<div class="d-flex align-items-center mt-4">
+																	<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+																	<!-- Info -->
+																	<div class="flex-grow-1 me-5">
+																		<!-- Time -->
+																		<div class="text-gray-700 fw-semibold fs-4">
+																			10:20 - 11:00
+																			<span class="text-gray-400 fw-semibold fs-9">AM</span>
+																		</div>
+																		<!--// Time -->
+																		<!-- Description -->
+																		<div class="text-gray-800 fw-semibold fs-6">
+																			도서관 유지보수 회의
+																		</div>
+																		<!--// Description -->
+																		<!-- Link -->
+																		<div class="text-gray-400 fs-8">
+																			일정종류
+																			<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
+																		</div>
+																		<!--// Link -->
+																	</div>
+																	<!--// Info -->
+																	<a href="#" class="btn btn-sm btn-light">보기</a>
+																</div>
+																<!--// Loop -->
 															</div>
 															<!--// Tap pane -->
 															<!-- Tap pane -->
@@ -1621,6 +2088,33 @@
 																		<div class="text-gray-400 fs-8">
 																			일정종류
 																			<a href="#" class="text-warning opacity-75-hover fw-semibold">미팅</a>
+																		</div>
+																		<!--// Link -->
+																	</div>
+																	<!--// Info -->
+																	<a href="#" class="btn btn-sm btn-light">보기</a>
+																</div>
+																<!--// Loop -->
+																<!-- Loop -->
+																<div class="d-flex align-items-center mt-4">
+																	<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+																	<!-- Info -->
+																	<div class="flex-grow-1 me-5">
+																		<!-- Time -->
+																		<div class="text-gray-700 fw-semibold fs-4">
+																			10:20 - 11:00
+																			<span class="text-gray-400 fw-semibold fs-9">AM</span>
+																		</div>
+																		<!--// Time -->
+																		<!-- Description -->
+																		<div class="text-gray-800 fw-semibold fs-6">
+																			도서관 유지보수 회의
+																		</div>
+																		<!--// Description -->
+																		<!-- Link -->
+																		<div class="text-gray-400 fs-8">
+																			일정종류
+																			<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
 																		</div>
 																		<!--// Link -->
 																	</div>
@@ -1688,6 +2182,33 @@
 																	<a href="#" class="btn btn-sm btn-light">보기</a>
 																</div>
 																<!--// Loop -->
+																<!-- Loop -->
+																<div class="d-flex align-items-center mt-4">
+																	<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+																	<!-- Info -->
+																	<div class="flex-grow-1 me-5">
+																		<!-- Time -->
+																		<div class="text-gray-700 fw-semibold fs-4">
+																			10:20 - 11:00
+																			<span class="text-gray-400 fw-semibold fs-9">AM</span>
+																		</div>
+																		<!--// Time -->
+																		<!-- Description -->
+																		<div class="text-gray-800 fw-semibold fs-6">
+																			도서관 유지보수 회의
+																		</div>
+																		<!--// Description -->
+																		<!-- Link -->
+																		<div class="text-gray-400 fs-8">
+																			일정종류
+																			<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
+																		</div>
+																		<!--// Link -->
+																	</div>
+																	<!--// Info -->
+																	<a href="#" class="btn btn-sm btn-light">보기</a>
+																</div>
+																<!--// Loop -->
 															</div>
 															<!--// Tap pane -->
 															<!-- Tap pane -->
@@ -1741,6 +2262,33 @@
 																		<div class="text-gray-400 fs-8">
 																			일정종류
 																			<a href="#" class="text-warning opacity-75-hover fw-semibold">미팅</a>
+																		</div>
+																		<!--// Link -->
+																	</div>
+																	<!--// Info -->
+																	<a href="#" class="btn btn-sm btn-light">보기</a>
+																</div>
+																<!--// Loop -->
+																<!-- Loop -->
+																<div class="d-flex align-items-center mt-4">
+																	<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+																	<!-- Info -->
+																	<div class="flex-grow-1 me-5">
+																		<!-- Time -->
+																		<div class="text-gray-700 fw-semibold fs-4">
+																			10:20 - 11:00
+																			<span class="text-gray-400 fw-semibold fs-9">AM</span>
+																		</div>
+																		<!--// Time -->
+																		<!-- Description -->
+																		<div class="text-gray-800 fw-semibold fs-6">
+																			도서관 유지보수 회의
+																		</div>
+																		<!--// Description -->
+																		<!-- Link -->
+																		<div class="text-gray-400 fs-8">
+																			일정종류
+																			<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
 																		</div>
 																		<!--// Link -->
 																	</div>
@@ -1808,6 +2356,33 @@
 																	<a href="#" class="btn btn-sm btn-light">보기</a>
 																</div>
 																<!--// Loop -->
+																<!-- Loop -->
+																<div class="d-flex align-items-center mt-4">
+																	<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+																	<!-- Info -->
+																	<div class="flex-grow-1 me-5">
+																		<!-- Time -->
+																		<div class="text-gray-700 fw-semibold fs-4">
+																			10:20 - 11:00
+																			<span class="text-gray-400 fw-semibold fs-9">AM</span>
+																		</div>
+																		<!--// Time -->
+																		<!-- Description -->
+																		<div class="text-gray-800 fw-semibold fs-6">
+																			도서관 유지보수 회의
+																		</div>
+																		<!--// Description -->
+																		<!-- Link -->
+																		<div class="text-gray-400 fs-8">
+																			일정종류
+																			<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
+																		</div>
+																		<!--// Link -->
+																	</div>
+																	<!--// Info -->
+																	<a href="#" class="btn btn-sm btn-light">보기</a>
+																</div>
+																<!--// Loop -->
 															</div>
 															<!--// Tap pane -->
 															<!-- Tap pane -->
@@ -1868,6 +2443,33 @@
 																	<a href="#" class="btn btn-sm btn-light">보기</a>
 																</div>
 																<!--// Loop -->
+																<!-- Loop -->
+																<div class="d-flex align-items-center mt-4">
+																	<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+																	<!-- Info -->
+																	<div class="flex-grow-1 me-5">
+																		<!-- Time -->
+																		<div class="text-gray-700 fw-semibold fs-4">
+																			10:20 - 11:00
+																			<span class="text-gray-400 fw-semibold fs-9">AM</span>
+																		</div>
+																		<!--// Time -->
+																		<!-- Description -->
+																		<div class="text-gray-800 fw-semibold fs-6">
+																			도서관 유지보수 회의
+																		</div>
+																		<!--// Description -->
+																		<!-- Link -->
+																		<div class="text-gray-400 fs-8">
+																			일정종류
+																			<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
+																		</div>
+																		<!--// Link -->
+																	</div>
+																	<!--// Info -->
+																	<a href="#" class="btn btn-sm btn-light">보기</a>
+																</div>
+																<!--// Loop -->
 															</div>
 															<!--// Tap pane -->
 															<!-- Tap pane -->
@@ -1921,6 +2523,33 @@
 																		<div class="text-gray-400 fs-8">
 																			일정종류
 																			<a href="#" class="text-warning opacity-75-hover fw-semibold">미팅</a>
+																		</div>
+																		<!--// Link -->
+																	</div>
+																	<!--// Info -->
+																	<a href="#" class="btn btn-sm btn-light">보기</a>
+																</div>
+																<!--// Loop -->
+																<!-- Loop -->
+																<div class="d-flex align-items-center mt-4">
+																	<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+																	<!-- Info -->
+																	<div class="flex-grow-1 me-5">
+																		<!-- Time -->
+																		<div class="text-gray-700 fw-semibold fs-4">
+																			10:20 - 11:00
+																			<span class="text-gray-400 fw-semibold fs-9">AM</span>
+																		</div>
+																		<!--// Time -->
+																		<!-- Description -->
+																		<div class="text-gray-800 fw-semibold fs-6">
+																			도서관 유지보수 회의
+																		</div>
+																		<!--// Description -->
+																		<!-- Link -->
+																		<div class="text-gray-400 fs-8">
+																			일정종류
+																			<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
 																		</div>
 																		<!--// Link -->
 																	</div>
