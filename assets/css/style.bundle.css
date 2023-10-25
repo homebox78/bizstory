@@ -50047,3 +50047,9 @@ body,
     color: #ffffff !important;
   }
 }
+
+
+/* customer */
+.bg-vector-1 {
+	background-image:url('../media/patterns/vector-1.png');
+}
