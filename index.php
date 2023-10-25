@@ -235,109 +235,135 @@
 									</div>
 									<!--// Col -->
 									<div class="col-md-4">
-										<!--Carousel-->
-										<div class="carousel carousel-custom carousel-stretch slide" data-bs-ride="carousel" data-bs-interval="8000">
-											<!--Heading-->
-											<div class="d-flex flex-stack align-items-center flex-wrap">
-												<ol class="p-0 m-0 carousel-indicators carousel-indicators-dots">
-													<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="0" class="ms-1 active"></li>
-													<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="1" class="ms-1"></li>
-													<li data-bs-target="#kt_security_recent_alerts" data-bs-slide-to="2" class="ms-1"></li>
-												</ol>
-											</div>
-											<!--// Heading-->
-											<!--Carousel inner-->
-											<div class="carousel-inner pt-2">
-												<!--Item-->
-												<div class="carousel-item active">
-													<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_4_1.jpg" class="w-100" alt=""></a>
-												</div>
-												<!--// Item-->
-												<!--Item-->
-												<div class="carousel-item">
-													<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_5_1.jpg" class="w-100" alt=""></a>
-												</div>
-												<!--// Item-->
-												<!--Item-->
-												<div class="carousel-item">
-													<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_6_1.jpg" class="w-100" alt=""></a>
-												</div>
-												<!--// Item-->
-											</div>
-											<!--// Carousel inner-->
+
+
+
+
+										<!--begin::Slider Widget 3-->
+										<div id="kt_sliders_widget_3_slider" class="card card-flush carousel slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5000">
+											 <!--begin::Header-->
+											 <div class="card-header pt-5 px-8 mb-5">
+												  <!--begin::Title-->
+												  <h3 class="card-title align-items-start flex-column w-75">
+														<span class="card-label fw-semibold text-dark fs-5">비즈스토리 사용내역</span>
+														<span class="text-gray-400 mt-2 fw-normal fs-8">시작일/만기일: 2012.02.20/2017.02.20</span>
+														<div class="h-8px w-100 bg-gray-300  rounded mt-2">
+															<div class="bg-danger rounded h-8px" role="progressbar" style="width: 62%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+												  </h3>
+												  <!--end::Title-->
+
+												  <!--begin::Toolbar-->
+												  <div class="card-toolbar">
+														<div class="d-flex justify-content-end">
+															 <a href="#kt_sliders_widget_3_slider" class="carousel-control-prev position-relative me-5 active" role="button" data-bs-slide="prev">
+																  <i class="ki-outline ki-left-square fs-2x text-gray-400"></i>                </a>
+															 <a href="#kt_sliders_widget_3_slider" class="carousel-control-next position-relative me-1" role="button" data-bs-slide="next">
+																  <i class="ki-outline ki-right-square fs-2x text-gray-400"></i>                </a>
+														</div>
+												  </div>
+												  <!--end::Toolbar-->
+											 </div>
+											 <!--end::Header-->
+
+											 <!--begin::Body-->
+											 <div class="card-body p-0 px-8">
+												  <!--begin::Carousel-->
+												  <div class="carousel-inner">
+
+															 <!--begin::Item-->
+															 <div class="carousel-item active show">
+																	<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_4_1.jpg" class="w-100" alt=""></a>
+															 </div>
+															 <!--end::Item-->
+
+															 <!--begin::Item-->
+															 <div class="carousel-item ">
+																	<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_5_1.jpg" class="w-100" alt=""></a>
+															 </div>
+															 <!--end::Item-->
+
+															 <!--begin::Item-->
+															 <div class="carousel-item ">
+																	<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_6_1.jpg" class="w-100" alt=""></a>
+															 </div>
+															 <!--end::Item-->
+
+												  </div>
+												  <!--end::Carousel-->
+											 </div>
+											 <!--end::Body-->
 										</div>
-										<!--// Carousel-->
-										<div class="d-flex justify-content-between text-white pt-1 fw-semibold fs-5">비즈스토리 사용내역</div>
-										<div class="d-flex justify-content-between fw-semibold text-white opacity-75 pt-1 fw-semibold fs-8 w-100 mt-auto mb-2">
-											<span>시작일/만기일: 2012.02.20/2017.02.20</span>
-											<span>62%</span>
-										</div>
-										<div class="h-8px w-100 bg-white bg-opacity-50 rounded">
-											<div class="bg-white rounded h-8px" role="progressbar" style="width: 62%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
+										<!--end::Slider Widget 3-->
 									</div>
 									<!-- Col -->
 									<div class="col-md-6">
 										<div class="card card-flush h-xl-100">
-											<ul class="nav nav-pills nav-pills-custom row position-relative mx-8 my-6" role="tablist">
-												<!--begin::Item-->
-												<li class="nav-item col-4 mx-0 p-0" role="presentation">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100 active" data-bs-toggle="pill" href="#workList1" aria-selected="true" role="tab">
-														<!--begin::Subtitle-->
-														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-														<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 <span class=" d-none d-xxl-inline-block">미처리</span>현황
-														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">19</span>
-														</span>
-														<!--end::Subtitle-->
+
+											<div class="hover-scroll-x">
+												<div class="d-grid">
+													<ul class="nav nav-pills nav-pills-custom row position-relative my-6 mx-8 flex-nowrap text-nowrap" role="tablist">
+														<!--begin::Item-->
+														<li class="nav-item col-4 mx-0 p-0" role="presentation">
+															<!--begin::Link-->
+															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100 active" data-bs-toggle="pill" href="#workList1" aria-selected="true" role="tab">
+																<!--begin::Subtitle-->
+																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+																<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 미처리현황
+																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">19</span>
+																</span>
+																<!--end::Subtitle-->
+																<!--begin::Bullet-->
+																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+																<!--end::Bullet-->
+															</a>
+															<!--end::Link-->
+														</li>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<li class="nav-item col-4 mx-0 px-0" role="presentation">
+															<!--begin::Link-->
+															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#workList2" aria-selected="false" role="tab" tabindex="-1">
+																<!--begin::Subtitle-->
+																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+																<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 리스트
+																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">8</span>
+																</span>
+																<!--end::Subtitle-->
+																<!--begin::Bullet-->
+																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+																<!--end::Bullet-->
+															</a>
+															<!--end::Link-->
+														</li>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<li class="nav-item col-4 mx-0 px-0" role="presentation">
+															<!--begin::Link-->
+															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#workList3" aria-selected="false" role="tab" tabindex="-1">
+																<!--begin::Subtitle-->
+																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+																<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 리스트
+																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
+																</span>
+																<!--end::Subtitle-->
+																<!--begin::Bullet-->
+																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+																<!--end::Bullet-->
+															</a>
+															<!--end::Link-->
+														</li>
+														<!--end::Item-->
 														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<span class="position-absolute z-index-1 bottom-0 w-100 h-3px bg-light rounded"></span>
 														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item col-4 mx-0 px-0" role="presentation">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#workList2" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Subtitle-->
-														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-														<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 리스트
-														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">8</span>
-														</span>
-														<!--end::Subtitle-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item col-4 mx-0 px-0" role="presentation">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#workList3" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Subtitle-->
-														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-														<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 <span class=" d-none d-xxl-inline-block">리스트</span>
-														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
-														</span>
-														<!--end::Subtitle-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Bullet-->
-												<span class="position-absolute z-index-1 bottom-0 w-100 h-3px bg-light rounded"></span>
-												<!--end::Bullet-->
-											</ul>
+													</ul>
+												</div>
+											</div>
+
 											<div class="card-body pt-0 ps-8 pe-0">
 												<!--Tab content-->
-												<div class="tab-content hover-scroll-overlay-y pe-4 me-4" style="height: 400px">
+												<div class="tab-content hover-scroll-overlay-y pe-4 me-4 xs-h-auto" style="height: 400px">
 													<!--Tab pane-->
 													<div class="tab-pane fade show active" id="workList1" role="tabpanel">
 														<!-- 접수 미처리현황 -->
@@ -794,65 +820,69 @@
 									<div class="col-md-6">
 										<!-- 이력 -->
 										<div class="card card-flush h-xl-100">
-											<ul class="nav nav-pills nav-pills-custom row position-relative mx-8 my-6" role="tablist">
-												<!--begin::Item-->
-												<li class="nav-item col-4 mx-0 p-0" role="presentation">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100 active" data-bs-toggle="pill" href="#timelineList1" aria-selected="true" role="tab">
-														<!--begin::Subtitle-->
-														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-														<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 이력
-														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">15</span>
-														</span>
-														<!--end::Subtitle-->
+											<div class="hover-scroll-x">
+												<div class="d-grid">
+													<ul class="nav nav-pills nav-pills-custom row position-relative flex-nowrap text-nowrap mx-8 my-6" role="tablist">
+														<!--begin::Item-->
+														<li class="nav-item col-4 mx-0 p-0" role="presentation">
+															<!--begin::Link-->
+															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100 active" data-bs-toggle="pill" href="#timelineList1" aria-selected="true" role="tab">
+																<!--begin::Subtitle-->
+																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+																<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 이력
+																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">15</span>
+																</span>
+																<!--end::Subtitle-->
+																<!--begin::Bullet-->
+																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+																<!--end::Bullet-->
+															</a>
+															<!--end::Link-->
+														</li>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<li class="nav-item col-4 mx-0 px-0" role="presentation">
+															<!--begin::Link-->
+															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList2" aria-selected="false" role="tab" tabindex="-1">
+																<!--begin::Subtitle-->
+																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+																<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 이력
+																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">9</span>
+																</span>
+																<!--end::Subtitle-->
+																<!--begin::Bullet-->
+																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+																<!--end::Bullet-->
+															</a>
+															<!--end::Link-->
+														</li>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<li class="nav-item col-4 mx-0 px-0" role="presentation">
+															<!--begin::Link-->
+															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList3" aria-selected="false" role="tab" tabindex="-1">
+																<!--begin::Subtitle-->
+																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
+																<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 이력
+																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
+																</span>
+																<!--end::Subtitle-->
+																<!--begin::Bullet-->
+																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+																<!--end::Bullet-->
+															</a>
+															<!--end::Link-->
+														</li>
+														<!--end::Item-->
 														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
+														<span class="position-absolute z-index-1 bottom-0 w-100 h-3px bg-light rounded"></span>
 														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item col-4 mx-0 px-0" role="presentation">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList2" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Subtitle-->
-														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-														<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 이력
-														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">9</span>
-														</span>
-														<!--end::Subtitle-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item col-4 mx-0 px-0" role="presentation">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList3" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Subtitle-->
-														<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-														<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 이력
-														<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
-														</span>
-														<!--end::Subtitle-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Bullet-->
-												<span class="position-absolute z-index-1 bottom-0 w-100 h-3px bg-light rounded"></span>
-												<!--end::Bullet-->
-											</ul>
+													</ul>
+												</div>
+											</div>
 											<div class="card-body pt-0 ps-8 pe-0">
 												<!--Tab content-->
-												<div class="tab-content hover-scroll-overlay-y pe-4 me-4" style="height: 400px">
+												<div class="tab-content hover-scroll-overlay-y pe-4 me-4 xs-h-auto" style="height: 400px">
 													<!--Tab pane-->
 													<div class="tab-pane fade show active" id="timelineList1" role="tabpanel">
 														<!-- Timeline -->
@@ -988,23 +1018,6 @@
 																	<div class="w-75 ellipsis-3">
 																		<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[안양인재개발원]</span> <span class="me-1">배너 추가 및 수정 요청</span></a>
 																		<div class="fs-8">승인되었습니다.</div>
-																	</div>
-																	<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
-																</div>
-															</div>
-															<!--// Item -->
-															<!-- Item -->
-															<div class="timeline-item d-flex align-items-center">
-																<div class="timeline-label"></div>
-																<div class="timeline-badge">
-																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="이찬영">
-																		<img src="assets/media/avatars/300-19.png" alt="">
-																	</div>
-																</div>
-																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
-																	<div class="w-75 ellipsis-3">
-																		<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[센스리더]</span> <span class="me-1">홈페이지>정보공개>정보목록</span></a>
-																		<div class="fs-8">작업이 완료되었습니다.</div>
 																	</div>
 																	<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
 																</div>
@@ -1154,23 +1167,6 @@
 																</div>
 															</div>
 															<!--// Item -->
-															<!-- Item -->
-															<div class="timeline-item d-flex align-items-center">
-																<div class="timeline-label"></div>
-																<div class="timeline-badge">
-																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="이찬영">
-																		<img src="assets/media/avatars/300-19.png" alt="">
-																	</div>
-																</div>
-																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
-																	<div class="w-75 ellipsis-3">
-																		<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[센스리더]</span> <span class="me-1">홈페이지>정보공개>정보목록</span></a>
-																		<div class="fs-8">작업이 완료되었습니다.</div>
-																	</div>
-																	<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
-																</div>
-															</div>
-															<!--// Item -->
 														</div>
 														<!--// Timeline -->
 													</div>
@@ -1315,23 +1311,6 @@
 																</div>
 															</div>
 															<!--// Item -->
-															<!-- Item -->
-															<div class="timeline-item d-flex align-items-center">
-																<div class="timeline-label"></div>
-																<div class="timeline-badge">
-																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="이찬영">
-																		<img src="assets/media/avatars/300-19.png" alt="">
-																	</div>
-																</div>
-																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
-																	<div class="w-75 ellipsis-3">
-																		<a href="#" class="ellipsis-1 text-gray-900 text-hover-primary"><span class="me-1">[센스리더]</span> <span class="me-1">홈페이지>정보공개>정보목록</span></a>
-																		<div class="fs-8">작업이 완료되었습니다.</div>
-																	</div>
-																	<div class="w-25 text-gray-500 fs-8 text-end mt-1">07-28 10:00</div>
-																</div>
-															</div>
-															<!--// Item -->
 														</div>
 														<!--// Timeline -->
 													</div>
@@ -1362,9 +1341,9 @@
 											<!--// Col header -->
 											<div class="card-body pt-0 px-0">
 												<!-- List -->
-												<div class="px-8 hover-scroll-overlay-y pe-4 me-4 mb-2" style="height: 320px">
+												<div class="px-8 hover-scroll-overlay-y pe-4 me-4 mb-2 xs-h-auto" style="height: 295px">
 													<!-- Item-->
-													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
 														<div class="d-flex flex-stack mb-1">
 															<!-- Wrapper-->
@@ -1394,7 +1373,7 @@
 																	<!-- Menu item-->
 																	<div class="menu-item px-3">
 																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <a href="tel:010-8802-9444" class="text-primary">010-8802-9444</a></span>
 																		</div>
 																	</div>
 																	<!-- Menu item-->
@@ -1448,21 +1427,15 @@
 														</div>
 														<!-- Info-->
 														<!-- Customer-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Name-->
-															<span class="text-gray-400">To:
+														<div class="d-xl-flex flex-xl-stack mb-1">
 															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-															</span>
-															<!-- Name-->
-															<!-- Label-->
-															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-															<!-- Label-->
+															<div class="text-gray-600 fs-8 mt-1 mt-xl-0">Last login : 2023/10/11 10:28</div>
 														</div>
 														<!-- Customer-->
 													</div>
 													<!-- Item-->
 													<!-- Item-->
-													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
 														<div class="d-flex flex-stack mb-1">
 															<!-- Wrapper-->
@@ -1492,7 +1465,7 @@
 																	<!-- Menu item-->
 																	<div class="menu-item px-3">
 																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <a href="tel:010-8802-9444" class="text-primary">010-8802-9444</a></span>
 																		</div>
 																	</div>
 																	<!-- Menu item-->
@@ -1546,21 +1519,15 @@
 														</div>
 														<!-- Info-->
 														<!-- Customer-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Name-->
-															<span class="text-gray-400">To:
+														<div class="d-xl-flex flex-xl-stack mb-1">
 															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-															</span>
-															<!-- Name-->
-															<!-- Label-->
-															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-															<!-- Label-->
+															<div class="text-gray-600 fs-8 mt-1 mt-xl-0">Last login : 2023/10/11 10:28</div>
 														</div>
 														<!-- Customer-->
 													</div>
 													<!-- Item-->
 													<!-- Item-->
-													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
 														<div class="d-flex flex-stack mb-1">
 															<!-- Wrapper-->
@@ -1590,7 +1557,7 @@
 																	<!-- Menu item-->
 																	<div class="menu-item px-3">
 																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <a href="tel:010-8802-9444" class="text-primary">010-8802-9444</a></span>
 																		</div>
 																	</div>
 																	<!-- Menu item-->
@@ -1644,21 +1611,15 @@
 														</div>
 														<!-- Info-->
 														<!-- Customer-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Name-->
-															<span class="text-gray-400">To:
+														<div class="d-xl-flex flex-xl-stack mb-1">
 															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-															</span>
-															<!-- Name-->
-															<!-- Label-->
-															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-															<!-- Label-->
+															<div class="text-gray-600 fs-8 mt-1 mt-xl-0">Last login : 2023/10/11 10:28</div>
 														</div>
 														<!-- Customer-->
 													</div>
 													<!-- Item-->
 													<!-- Item-->
-													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
+													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
 														<div class="d-flex flex-stack mb-1">
 															<!-- Wrapper-->
@@ -1688,7 +1649,7 @@
 																	<!-- Menu item-->
 																	<div class="menu-item px-3">
 																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
+																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <a href="tel:010-8802-9444" class="text-primary">010-8802-9444</a></span>
 																		</div>
 																	</div>
 																	<!-- Menu item-->
@@ -1742,211 +1703,9 @@
 														</div>
 														<!-- Info-->
 														<!-- Customer-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Name-->
-															<span class="text-gray-400">To:
+														<div class="d-xl-flex flex-xl-stack mb-1">
 															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-															</span>
-															<!-- Name-->
-															<!-- Label-->
-															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-															<!-- Label-->
-														</div>
-														<!-- Customer-->
-													</div>
-													<!-- Item-->
-													<!-- Item-->
-													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-														<!-- Info-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Wrapper-->
-															<div class="me-3">
-																<!-- Icon-->
-																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																	<img alt="Pic" src="assets/media/avatars/300-17.png">
-																</div>
-																<!-- Icon-->
-																<!-- Title-->
-																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">감우성</a>
-																<span class="badge badge-light-primary ms-2">사원</span>
-																<!-- Title-->
-															</div>
-															<!-- Wrapper-->
-															<!-- Action-->
-															<div class="m-0">
-																<!-- Menu-->
-																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																	data-kt-menu-trigger="click"
-																	data-kt-menu-placement="bottom-end"
-																	data-kt-menu-overflow="true">
-																<i class="ki-outline ki-dots-square fs-1"></i>
-																</button>
-																<!-- Menu 2-->
-																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3 mt-4">
-																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
-																		쪽지 보내기
-																		</a>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
-																		메일 보내기
-																		</a>
-																	</div>
-																	<!-- Menu item-->
-																</div>
-																<!-- Menu 2-->
-																<!-- Menu-->
-															</div>
-															<!-- Action-->
-														</div>
-														<!-- Info-->
-														<!-- Customer-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Name-->
-															<span class="text-gray-400">To:
-															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-															</span>
-															<!-- Name-->
-															<!-- Label-->
-															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-															<!-- Label-->
-														</div>
-														<!-- Customer-->
-													</div>
-													<!-- Item-->
-													<!-- Item-->
-													<div class="border border-dashed border-gray-300 rounded px-8 py-4 mb-4 bg-hover-light-primary">
-														<!-- Info-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Wrapper-->
-															<div class="me-3">
-																<!-- Icon-->
-																<div class="symbol symbol-35px symbol-circle ms-n1 me-3">
-																	<img alt="Pic" src="assets/media/avatars/300-18.png">
-																</div>
-																<!-- Icon-->
-																<!-- Title-->
-																<a href="#" class="text-gray-800 text-hover-primary fs-5 fw-semibold">이나영</a>
-																<span class="badge badge-light-primary ms-2">대리</span>
-																<!-- Title-->
-															</div>
-															<!-- Wrapper-->
-															<!-- Action-->
-															<div class="m-0">
-																<!-- Menu-->
-																<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-																	data-kt-menu-trigger="click"
-																	data-kt-menu-placement="bottom-end"
-																	data-kt-menu-overflow="true">
-																<i class="ki-outline ki-dots-square fs-1"></i>
-																</button>
-																<!-- Menu 2-->
-																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true">
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">연락처 : <span class="text-gray-800">010-8802-9444</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">총업무처리 : <span class="text-gray-800">18</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">총접수처리 : <span class="text-gray-800">4</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">진행업무 : <span class="text-gray-800">12</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3 py-1">
-																			<span class="text-gray-600 fs-7 fw-normal">진행접수 : <span class="text-gray-800">4</span></span>
-																		</div>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3 mt-4">
-																		<a href="#" class="btn btn-primary btn-sm px-4 w-100">
-																		쪽지 보내기
-																		</a>
-																	</div>
-																	<!-- Menu item-->
-																	<!-- Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="btn btn-success btn-sm px-4 w-100">
-																		메일 보내기
-																		</a>
-																	</div>
-																	<!-- Menu item-->
-																</div>
-																<!-- Menu 2-->
-																<!-- Menu-->
-															</div>
-															<!-- Action-->
-														</div>
-														<!-- Info-->
-														<!-- Customer-->
-														<div class="d-flex flex-stack mb-1">
-															<!-- Name-->
-															<span class="text-gray-400">To:
-															<a href="mailto:smith@bizstory.co.kr" class="text-gray-800 text-hover-primary">smith@bizstory.co.kr</a>
-															</span>
-															<!-- Name-->
-															<!-- Label-->
-															<span class="text-gray-600 fs-8">마지막로그인 : 2023/10/11 10:28</span>
-															<!-- Label-->
+															<div class="text-gray-600 fs-8 mt-1 mt-xl-0">Last login : 2023/10/11 10:28</div>
 														</div>
 														<!-- Customer-->
 													</div>
@@ -1965,7 +1724,7 @@
 											<div class="card-header border-0 pt-5 px-8">
 												<h3 class="card-title align-items-start flex-column">
 													<span class="card-label fw-semibold text-dark">일정목록</span>
-													<span class="text-muted mt-1 fw-semibold fs-7">총 3건의 일정</span>
+													<span class="text-muted mt-1 fw-normal fs-7">총 2건의 일정</span>
 												</h3>
 												<div class="card-toolbar">
 													<div class="d-flex flex-column justify-content-end pe-0">
@@ -2001,7 +1760,7 @@
 												<!-- Nav -->
 												<ul class="nav nav-stretch nav-pills nav-pills-custom nav-pills-active-custom d-flex justify-content-between mb-6 px-8">
 													<!-- Nav item -->
-													<li class="nav-item p-0 ms-0">
+													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_1">
 														<span class="fs-8 fw-semibold">토</span>
 														<span class="fs-7 fw-semibold">8</span>
@@ -2009,7 +1768,7 @@
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
-													<li class="nav-item p-0 ms-0">
+													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_2">
 														<span class="fs-8 fw-semibold">일</span>
 														<span class="fs-7 fw-semibold">9</span>
@@ -2017,7 +1776,7 @@
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
-													<li class="nav-item p-0 ms-0">
+													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_3">
 														<span class="fs-8 fw-semibold">월</span>
 														<span class="fs-7 fw-semibold">10</span>
@@ -2025,7 +1784,7 @@
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
-													<li class="nav-item p-0 ms-0">
+													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning active" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_4">
 														<span class="fs-8 fw-semibold">화</span>
 														<span class="fs-7 fw-semibold">11</span>
@@ -2033,7 +1792,7 @@
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
-													<li class="nav-item p-0 ms-0">
+													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_5">
 														<span class="fs-8 fw-semibold">수</span>
 														<span class="fs-7 fw-semibold">12</span>
@@ -2041,7 +1800,7 @@
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
-													<li class="nav-item p-0 ms-0">
+													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_6">
 														<span class="fs-8 fw-semibold">목</span>
 														<span class="fs-7 fw-semibold">13</span>
@@ -2049,7 +1808,7 @@
 													</li>
 													<!--// Nav item -->
 													<!-- Nav item -->
-													<li class="nav-item p-0 ms-0">
+													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_7">
 														<span class="fs-8 fw-semibold">금</span>
 														<span class="fs-7 fw-semibold">14</span>
@@ -2063,8 +1822,8 @@
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_1">
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
+															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-8 bg-success"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
 																<!-- Time -->
@@ -2086,11 +1845,11 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2114,34 +1873,7 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
-														</div>
-														<!--// Loop -->
-														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
-															<!-- Info -->
-															<div class="flex-grow-1 me-5">
-																<!-- Time -->
-																<div class="text-gray-700 fw-semibold fs-4">
-																	10:20 - 11:00
-																	<span class="text-gray-400 fw-semibold fs-9">AM</span>
-																</div>
-																<!--// Time -->
-																<!-- Description -->
-																<div class="text-gray-800 fw-semibold fs-6">
-																	도서관 유지보수 회의
-																</div>
-																<!--// Description -->
-																<!-- Link -->
-																<div class="text-gray-400 fs-8">
-																	일정종류
-																	<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
-																</div>
-																<!--// Link -->
-															</div>
-															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 													</div>
@@ -2149,7 +1881,7 @@
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_2">
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2173,11 +1905,11 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2201,34 +1933,7 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
-														</div>
-														<!--// Loop -->
-														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
-															<!-- Info -->
-															<div class="flex-grow-1 me-5">
-																<!-- Time -->
-																<div class="text-gray-700 fw-semibold fs-4">
-																	10:20 - 11:00
-																	<span class="text-gray-400 fw-semibold fs-9">AM</span>
-																</div>
-																<!--// Time -->
-																<!-- Description -->
-																<div class="text-gray-800 fw-semibold fs-6">
-																	도서관 유지보수 회의
-																</div>
-																<!--// Description -->
-																<!-- Link -->
-																<div class="text-gray-400 fs-8">
-																	일정종류
-																	<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
-																</div>
-																<!--// Link -->
-															</div>
-															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 													</div>
@@ -2236,7 +1941,7 @@
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_3">
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2260,11 +1965,11 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2288,34 +1993,7 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
-														</div>
-														<!--// Loop -->
-														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
-															<!-- Info -->
-															<div class="flex-grow-1 me-5">
-																<!-- Time -->
-																<div class="text-gray-700 fw-semibold fs-4">
-																	10:20 - 11:00
-																	<span class="text-gray-400 fw-semibold fs-9">AM</span>
-																</div>
-																<!--// Time -->
-																<!-- Description -->
-																<div class="text-gray-800 fw-semibold fs-6">
-																	도서관 유지보수 회의
-																</div>
-																<!--// Description -->
-																<!-- Link -->
-																<div class="text-gray-400 fs-8">
-																	일정종류
-																	<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
-																</div>
-																<!--// Link -->
-															</div>
-															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 													</div>
@@ -2323,7 +2001,7 @@
 													<!-- Tap pane -->
 													<div class="tab-pane fade show active" id="kt_timeline_widget_3_tab_content_4">
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2347,11 +2025,11 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2375,34 +2053,7 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
-														</div>
-														<!--// Loop -->
-														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
-															<!-- Info -->
-															<div class="flex-grow-1 me-5">
-																<!-- Time -->
-																<div class="text-gray-700 fw-semibold fs-4">
-																	10:20 - 11:00
-																	<span class="text-gray-400 fw-semibold fs-9">AM</span>
-																</div>
-																<!--// Time -->
-																<!-- Description -->
-																<div class="text-gray-800 fw-semibold fs-6">
-																	도서관 유지보수 회의
-																</div>
-																<!--// Description -->
-																<!-- Link -->
-																<div class="text-gray-400 fs-8">
-																	일정종류
-																	<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
-																</div>
-																<!--// Link -->
-															</div>
-															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 													</div>
@@ -2410,7 +2061,7 @@
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_5">
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2434,11 +2085,11 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2462,34 +2113,7 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
-														</div>
-														<!--// Loop -->
-														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
-															<!-- Info -->
-															<div class="flex-grow-1 me-5">
-																<!-- Time -->
-																<div class="text-gray-700 fw-semibold fs-4">
-																	10:20 - 11:00
-																	<span class="text-gray-400 fw-semibold fs-9">AM</span>
-																</div>
-																<!--// Time -->
-																<!-- Description -->
-																<div class="text-gray-800 fw-semibold fs-6">
-																	도서관 유지보수 회의
-																</div>
-																<!--// Description -->
-																<!-- Link -->
-																<div class="text-gray-400 fs-8">
-																	일정종류
-																	<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
-																</div>
-																<!--// Link -->
-															</div>
-															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 													</div>
@@ -2497,7 +2121,7 @@
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_6">
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2521,11 +2145,11 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2549,34 +2173,7 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
-														</div>
-														<!--// Loop -->
-														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
-															<!-- Info -->
-															<div class="flex-grow-1 me-5">
-																<!-- Time -->
-																<div class="text-gray-700 fw-semibold fs-4">
-																	10:20 - 11:00
-																	<span class="text-gray-400 fw-semibold fs-9">AM</span>
-																</div>
-																<!--// Time -->
-																<!-- Description -->
-																<div class="text-gray-800 fw-semibold fs-6">
-																	도서관 유지보수 회의
-																</div>
-																<!--// Description -->
-																<!-- Link -->
-																<div class="text-gray-400 fs-8">
-																	일정종류
-																	<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
-																</div>
-																<!--// Link -->
-															</div>
-															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 													</div>
@@ -2584,7 +2181,7 @@
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_7">
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2608,11 +2205,11 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
+														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
 															<!-- Info -->
 															<div class="flex-grow-1 me-5">
@@ -2636,34 +2233,7 @@
 																<!--// Link -->
 															</div>
 															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
-														</div>
-														<!--// Loop -->
-														<!-- Loop -->
-														<div class="d-flex align-items-center mt-4">
-															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success"></span>
-															<!-- Info -->
-															<div class="flex-grow-1 me-5">
-																<!-- Time -->
-																<div class="text-gray-700 fw-semibold fs-4">
-																	10:20 - 11:00
-																	<span class="text-gray-400 fw-semibold fs-9">AM</span>
-																</div>
-																<!--// Time -->
-																<!-- Description -->
-																<div class="text-gray-800 fw-semibold fs-6">
-																	도서관 유지보수 회의
-																</div>
-																<!--// Description -->
-																<!-- Link -->
-																<div class="text-gray-400 fs-8">
-																	일정종류
-																	<a href="#" class="text-success opacity-75-hover fw-semibold">업무</a>
-																</div>
-																<!--// Link -->
-															</div>
-															<!--// Info -->
-															<a href="#" class="btn btn-sm btn-light">보기</a>
+															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
 													</div>
