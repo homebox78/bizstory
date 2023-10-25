@@ -1,6 +1,7 @@
 <?php
 	include_once("header.php");
 ?>
+
 <!-- Body -->
 <body id="kt_app_body" data-kt-app-layout="dark-sidebar" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
 	<!-- App -->
@@ -10,11 +11,13 @@
 			<?php
 				include_once("navi.php");
 			?>
+
 			<!-- Wrapper -->
 			<div class="app-wrapper  flex-column flex-row-fluid " id="kt_app_wrapper">
 				<?php
 					include_once("sidebar.php");
 				?>
+
 				<!-- Main -->
 				<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
 					<!-- Content wrapper -->
@@ -36,12 +39,12 @@
 								</div>
 								<!--// 공지사항 -->
 
-								<!-- Row -->
 								<div class="row g-8">
+
 									<!-- Col -->
 									<div class="col-md-4">
 										<!-- 사용자 정보 -->
-										<div class="card h-md-100" dir="ltr">
+										<div class="card card-flush h-xl-100">
 											<div class="card-body d-flex flex-column flex-center">
 												<!-- Heading-->
 												<div class="mb-2">
@@ -51,7 +54,7 @@
 													</h1>
 													<div class="py-4 text-center">
 														<div class="bg-warning symbol symbol-80px symbol-lg-150px symbol-circle mb-4">
-															<img src="assets/media/avatars/300-5.png" class="p-2" alt="">
+															<img src="assets/media/avatars/300-5.png" class="p-2" alt="...">
 														</div>
 													</div>
 												</div>
@@ -231,7 +234,7 @@
 									<!-- Col -->
 									<div class="col-md-4">
 										<!-- 비즈스토리 사용내역 & 배너 -->
-										<div id="kt_sliders_widget_3_slider" class="card card-flush carousel slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5000">
+										<div id="kt_sliders_widget_3_slider" class="card card-flush h-xl-100 carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 											<!-- 비즈스토리 사용내역 -->
 											<div class="card-header pt-5 px-8 mb-5">
 												<!-- Title-->
@@ -262,17 +265,17 @@
 												<div class="carousel-inner">
 													<!-- Item -->
 													<div class="carousel-item active show">
-														<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_4_1.jpg" class="w-100" alt=""></a>
+														<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_4_1.jpg" class="w-100" alt="..."></a>
 													</div>
 													<!-- Item -->
 													<!-- Item -->
 													<div class="carousel-item ">
-														<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_5_1.jpg" class="w-100" alt=""></a>
+														<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_5_1.jpg" class="w-100" alt="..."></a>
 													</div>
 													<!-- Item -->
 													<!-- Item -->
 													<div class="carousel-item ">
-														<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_6_1.jpg" class="w-100" alt=""></a>
+														<a href="#"><img src="http://www.bizstory.co.kr/data/banner/banner_6_1.jpg" class="w-100" alt="..."></a>
 													</div>
 													<!-- Item -->
 												</div>
@@ -287,6 +290,7 @@
 
 									<!-- Col -->
 									<div class="col-md-6">
+										<!-- 리스트 -->
 										<div class="card card-flush h-xl-100">
 											<div class="hover-scroll-x">
 												<div class="d-grid">
@@ -329,6 +333,7 @@
 													</ul>
 												</div>
 											</div>
+
 											<div class="card-body pt-0 ps-8 pe-0">
 												<div class="tab-content hover-scroll-overlay-y pe-4 me-4 xs-h-auto" style="height: 400px">
 													<!--접수 미처리현황 -->
@@ -465,14 +470,14 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
+
 															<a href="#" class="btn btn-warning er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 접수 등록</a>
 														</div>
 													</div>
 													<!--// 접수 미처리현황 -->
 
-													<!--Tab pane-->
+													<!-- 업무 리스트 -->
 													<div class="tab-pane fade" id="workList2" role="tabpanel">
-														<!-- 업무 리스트 -->
 														<div class="office-group">
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
@@ -522,6 +527,7 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
+
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -566,6 +572,7 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
+
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -614,14 +621,14 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
+
 															<a href="#" class="btn btn-primary er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 업무 등록</a>
 														</div>
-														<!--// 업무 리스트 -->
 													</div>
-													<!--// Tab pane-->
-													<!--Tab pane-->
+													<!--// 업무 리스트 -->
+
+													<!-- 프로젝트 리스트 -->
 													<div class="tab-pane fade" id="workList3" role="tabpanel">
-														<!-- 프로젝트 리스트 -->
 														<div class="office-group">
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
@@ -674,6 +681,7 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
+
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -722,6 +730,7 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
+
 															<!-- Loop -->
 															<div class="loop mb-6 pb-6 mb-xl-9 border-bottom border-gray-300 border-bottom-dashed">
 																<!-- 등록자, 분류 -->
@@ -773,14 +782,15 @@
 																<!--// 담당자, 기타 -->
 															</div>
 															<!--// Loop -->
+
 															<a href="#" class="btn btn-success er w-100 fs-7 py-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">새 프로젝트 등록</a>
 														</div>
-														<!--// 프로젝트 리스트 -->
 													</div>
-													<!--// Tab pane-->
+													<!--// 프로젝트 리스트 -->
 												</div>
 											</div>
 										</div>
+										<!--// 리스트 -->
 									</div>
 									<!--// Col -->
 
@@ -794,71 +804,54 @@
 													<ul class="nav nav-pills nav-pills-custom row position-relative flex-nowrap text-nowrap mx-8 my-6" role="tablist">
 														<!-- Item -->
 														<li class="nav-item col-4 mx-0 p-0" role="presentation">
-															<!-- Link-->
 															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100 active" data-bs-toggle="pill" href="#timelineList1" aria-selected="true" role="tab">
-																<!-- Subtitle-->
 																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-																<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 이력
-																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">15</span>
+																	<i class="ki-solid ki-notepad-edit fw-semibold fs-4 me-1"></i> 접수 이력
+																	<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">15</span>
 																</span>
-																<!-- Subtitle-->
-																<!-- Bullet-->
 																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
-																<!-- Bullet-->
 															</a>
-															<!-- Link-->
 														</li>
-														<!-- Item -->
+														<!--// Item -->
+
 														<!-- Item -->
 														<li class="nav-item col-4 mx-0 px-0" role="presentation">
-															<!-- Link-->
 															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList2" aria-selected="false" role="tab" tabindex="-1">
-																<!-- Subtitle-->
 																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-																<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 이력
-																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">9</span>
+																	<i class="ki-solid ki-code fw-semibold fs-4 me-1"></i> 업무 이력
+																	<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">9</span>
 																</span>
-																<!-- Subtitle-->
-																<!-- Bullet-->
 																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
-																<!-- Bullet-->
 															</a>
-															<!-- Link-->
 														</li>
-														<!-- Item -->
+														<!--// Item -->
+
 														<!-- Item -->
 														<li class="nav-item col-4 mx-0 px-0" role="presentation">
-															<!-- Link-->
 															<a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#timelineList3" aria-selected="false" role="tab" tabindex="-1">
-																<!-- Subtitle-->
 																<span class="nav-text text-gray-800 fw-semibold fs-6 mb-3">
-																<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 이력
-																<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
+																	<i class="ki-solid ki-office-bag fw-semibold fs-4 me-1"></i> 프로젝트 이력
+																	<span class="fs-6 text-gray-400 ms-2 d-none d-xxl-inline-block">7</span>
 																</span>
-																<!-- Subtitle-->
-																<!-- Bullet-->
 																<span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-3px bg-primary rounded"></span>
-																<!-- Bullet-->
 															</a>
-															<!-- Link-->
 														</li>
-														<!-- Item -->
+														<!--// Item -->
 													</ul>
 												</div>
 											</div>
 											<div class="card-body pt-0 ps-8 pe-0">
-												<!--Tab content-->
+												<!-- Tab content-->
 												<div class="tab-content hover-scroll-overlay-y pe-4 me-4 xs-h-auto" style="height: 400px">
-													<!--Tab pane-->
+													<!-- 접수 이력 -->
 													<div class="tab-pane fade show active" id="timelineList1" role="tabpanel">
-														<!-- Timeline -->
 														<div class="timeline-label">
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="신동훈">
-																		<img src="assets/media/avatars/300-11.png" alt="">
+																		<img src="assets/media/avatars/300-11.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -870,6 +863,7 @@
 																</div>
 															</div>
 															<!--// Item -->
+
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
@@ -887,6 +881,7 @@
 																</div>
 															</div>
 															<!--// Item -->
+
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
@@ -904,12 +899,13 @@
 																</div>
 															</div>
 															<!--// Item -->
+
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김지현">
-																		<img src="assets/media/avatars/300-15.png" alt="">
+																		<img src="assets/media/avatars/300-15.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -921,12 +917,13 @@
 																</div>
 															</div>
 															<!--// Item -->
+
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="강은주">
-																		<img src="assets/media/avatars/300-16.png" alt="">
+																		<img src="assets/media/avatars/300-16.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -938,12 +935,13 @@
 																</div>
 															</div>
 															<!--// Item -->
+
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김나영">
-																		<img src="assets/media/avatars/300-23.png" alt="">
+																		<img src="assets/media/avatars/300-23.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -955,12 +953,13 @@
 																</div>
 															</div>
 															<!--// Item -->
+
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김민성">
-																		<img src="assets/media/avatars/300-17.png" alt="">
+																		<img src="assets/media/avatars/300-17.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -972,12 +971,13 @@
 																</div>
 															</div>
 															<!--// Item -->
+
 															<!-- Item -->
 															<div class="timeline-item d-flex align-items-center">
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김은희">
-																		<img src="assets/media/avatars/300-18.png" alt="">
+																		<img src="assets/media/avatars/300-18.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -990,10 +990,10 @@
 															</div>
 															<!--// Item -->
 														</div>
-														<!--// Timeline -->
 													</div>
-													<!--// Tab pane-->
-													<!--Tab pane-->
+													<!--// 접수 이력 -->
+
+													<!-- 업무 이력 -->
 													<div class="tab-pane fade" id="timelineList2" role="tabpanel">
 														<!-- Timeline -->
 														<div class="timeline-label">
@@ -1002,7 +1002,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="신동훈">
-																		<img src="assets/media/avatars/300-11.png" alt="">
+																		<img src="assets/media/avatars/300-11.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1053,7 +1053,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김지현">
-																		<img src="assets/media/avatars/300-15.png" alt="">
+																		<img src="assets/media/avatars/300-15.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1070,7 +1070,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="강은주">
-																		<img src="assets/media/avatars/300-16.png" alt="">
+																		<img src="assets/media/avatars/300-16.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1087,7 +1087,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김나영">
-																		<img src="assets/media/avatars/300-23.png" alt="">
+																		<img src="assets/media/avatars/300-23.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1104,7 +1104,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김민성">
-																		<img src="assets/media/avatars/300-17.png" alt="">
+																		<img src="assets/media/avatars/300-17.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1121,7 +1121,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김은희">
-																		<img src="assets/media/avatars/300-18.png" alt="">
+																		<img src="assets/media/avatars/300-18.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1136,8 +1136,9 @@
 														</div>
 														<!--// Timeline -->
 													</div>
-													<!--// Tab pane-->
-													<!--Tab pane-->
+													<!--// 업무 이력 -->
+
+													<!-- 프로젝트 이력 -->
 													<div class="tab-pane fade" id="timelineList3" role="tabpanel">
 														<!-- Timeline -->
 														<div class="timeline-label">
@@ -1146,7 +1147,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="신동훈">
-																		<img src="assets/media/avatars/300-11.png" alt="">
+																		<img src="assets/media/avatars/300-11.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1197,7 +1198,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김지현">
-																		<img src="assets/media/avatars/300-15.png" alt="">
+																		<img src="assets/media/avatars/300-15.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1214,7 +1215,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="강은주">
-																		<img src="assets/media/avatars/300-16.png" alt="">
+																		<img src="assets/media/avatars/300-16.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1231,7 +1232,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김나영">
-																		<img src="assets/media/avatars/300-23.png" alt="">
+																		<img src="assets/media/avatars/300-23.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1248,7 +1249,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김민성">
-																		<img src="assets/media/avatars/300-17.png" alt="">
+																		<img src="assets/media/avatars/300-17.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1265,7 +1266,7 @@
 																<div class="timeline-label"></div>
 																<div class="timeline-badge">
 																	<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="김은희">
-																		<img src="assets/media/avatars/300-18.png" alt="">
+																		<img src="assets/media/avatars/300-18.png" alt="...">
 																	</div>
 																</div>
 																<div class="d-flex w-100 ps-8 text-gray-600 fs-7">
@@ -1280,7 +1281,7 @@
 														</div>
 														<!--// Timeline -->
 													</div>
-													<!--// Tab pane-->
+													<!--// 프로젝트 이력 -->
 												</div>
 												<!--// Tab content-->
 											</div>
@@ -1288,26 +1289,24 @@
 										<!--// 이력 -->
 									</div>
 									<!--// Col -->
+
+
 									<!-- Col -->
 									<div class="col-md-6">
+										<!-- 최근접속 회원정보 -->
 										<div class="card card-flush h-xl-100">
-											<!-- Col header -->
-											<div class="card-header pt-6 px-8">
-												<!-- Title-->
+											<div class="card-header pt-2 px-8">
 												<h3 class="card-title align-items-start flex-column">
 													<span class="fw-semibold fs-4">최근접속 회원정보</span>
 												</h3>
-												<!-- Title-->
-												<!-- Toolbar-->
 												<div class="card-toolbar">
 													<span class="fs-6 text-gray-400 ms-2">10</span>
 												</div>
-												<!-- Toolbar-->
 											</div>
-											<!--// Col header -->
-											<div class="card-body pt-0 px-0">
+
+											<div class="card-body p-0">
 												<!-- List -->
-												<div class="px-8 hover-scroll-overlay-y pe-4 me-4 mb-2 xs-h-auto" style="height: 295px">
+												<div class="px-8 hover-scroll-overlay-y pe-4 me-4 xs-h-auto" style="height: 295px">
 													<!-- Item -->
 													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
@@ -1399,7 +1398,8 @@
 														</div>
 														<!-- Customer-->
 													</div>
-													<!-- Item -->
+													<!--// Item -->
+
 													<!-- Item -->
 													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
@@ -1491,7 +1491,8 @@
 														</div>
 														<!-- Customer-->
 													</div>
-													<!-- Item -->
+													<!--// Item -->
+
 													<!-- Item -->
 													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
@@ -1583,7 +1584,8 @@
 														</div>
 														<!-- Customer-->
 													</div>
-													<!-- Item -->
+													<!--// Item -->
+
 													<!-- Item -->
 													<div class="border border-dashed border-gray-300 rounded px-8 py-3 mb-3 bg-hover-light-primary">
 														<!-- Info-->
@@ -1675,19 +1677,22 @@
 														</div>
 														<!-- Customer-->
 													</div>
-													<!-- Item -->
+													<!--// Item -->
 												</div>
 												<!--// List -->
 											</div>
 										</div>
+										<!--// 최근접속 회원정보 -->
 									</div>
 									<!--// Col -->
+
+
 									<!-- Col -->
 									<div class="col-md-6">
 										<!-- 일정목록 -->
 										<div class="card card-flush h-xl-100">
 											<!-- 등록자, 분류 -->
-											<div class="card-header border-0 pt-5 px-8">
+											<div class="card-header border-0 pt-6 px-8">
 												<h3 class="card-title align-items-start flex-column">
 													<span class="card-label fw-semibold text-dark">일정목록</span>
 													<span class="text-muted mt-1 fw-normal fs-7">총 2건의 일정</span>
@@ -1721,7 +1726,7 @@
 												</div>
 											</div>
 											<!--// 등록자, 분류 -->
-											<!-- Body -->
+
 											<div class="card-body pt-2 px-0">
 												<!-- Nav -->
 												<ul class="nav nav-stretch nav-pills nav-pills-custom nav-pills-active-custom d-flex justify-content-between mb-6 px-8">
@@ -1733,6 +1738,7 @@
 														</a>
 													</li>
 													<!--// Nav item -->
+
 													<!-- Nav item -->
 													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_2">
@@ -1741,6 +1747,7 @@
 														</a>
 													</li>
 													<!--// Nav item -->
+
 													<!-- Nav item -->
 													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_3">
@@ -1749,6 +1756,7 @@
 														</a>
 													</li>
 													<!--// Nav item -->
+
 													<!-- Nav item -->
 													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning active" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_4">
@@ -1757,6 +1765,7 @@
 														</a>
 													</li>
 													<!--// Nav item -->
+
 													<!-- Nav item -->
 													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_5">
@@ -1765,6 +1774,7 @@
 														</a>
 													</li>
 													<!--// Nav item -->
+
 													<!-- Nav item -->
 													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_6">
@@ -1773,6 +1783,7 @@
 														</a>
 													</li>
 													<!--// Nav item -->
+
 													<!-- Nav item -->
 													<li class="nav-item p-0 mx-0">
 														<a class="nav-link btn d-flex flex-column flex-center rounded-2 min-w-35px p-2 btn-active-warning" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_7">
@@ -1783,6 +1794,7 @@
 													<!--// Nav item -->
 												</ul>
 												<!--// Nav -->
+
 												<!-- Tab Content -->
 												<div class="tab-content mb-2 px-9">
 													<!-- Tap pane -->
@@ -1814,6 +1826,7 @@
 															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
+
 														<!-- Loop -->
 														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
@@ -1844,6 +1857,7 @@
 														<!--// Loop -->
 													</div>
 													<!--// Tap pane -->
+
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_2">
 														<!-- Loop -->
@@ -1874,6 +1888,7 @@
 															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
+
 														<!-- Loop -->
 														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
@@ -1904,6 +1919,7 @@
 														<!--// Loop -->
 													</div>
 													<!--// Tap pane -->
+
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_3">
 														<!-- Loop -->
@@ -1934,6 +1950,7 @@
 															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
+
 														<!-- Loop -->
 														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
@@ -1964,6 +1981,7 @@
 														<!--// Loop -->
 													</div>
 													<!--// Tap pane -->
+
 													<!-- Tap pane -->
 													<div class="tab-pane fade show active" id="kt_timeline_widget_3_tab_content_4">
 														<!-- Loop -->
@@ -1994,6 +2012,7 @@
 															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
+
 														<!-- Loop -->
 														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
@@ -2024,6 +2043,7 @@
 														<!--// Loop -->
 													</div>
 													<!--// Tap pane -->
+
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_5">
 														<!-- Loop -->
@@ -2054,6 +2074,7 @@
 															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
+
 														<!-- Loop -->
 														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
@@ -2084,6 +2105,7 @@
 														<!--// Loop -->
 													</div>
 													<!--// Tap pane -->
+
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_6">
 														<!-- Loop -->
@@ -2114,6 +2136,7 @@
 															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
+
 														<!-- Loop -->
 														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
@@ -2144,6 +2167,7 @@
 														<!--// Loop -->
 													</div>
 													<!--// Tap pane -->
+
 													<!-- Tap pane -->
 													<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_7">
 														<!-- Loop -->
@@ -2174,6 +2198,7 @@
 															<a href="#" class="btn btn-dark btn-sm px-4">보기</a>
 														</div>
 														<!--// Loop -->
+
 														<!-- Loop -->
 														<div class="d-flex align-items-center border border-dashed border-gray-300 rounded pe-8 py-4 mb-4 bg-hover-light-primary">
 															<span data-kt-element="bullet" class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-warning"></span>
@@ -2207,19 +2232,19 @@
 												</div>
 												<!--// Tab Content -->
 											</div>
-											<!--// Card Body -->
 										</div>
 										<!--// 일정목록 -->
 									</div>
 									<!--// Col -->
+
 								</div>
-								<!--// Row -->
 							</div>
 							<!--// Content container -->
 						</div>
 						<!--// Content -->
 					</div>
 					<!--// Content wrapper -->
+
 					<?php
 						include_once("footer.php");
 					?>
@@ -2231,6 +2256,7 @@
 		<!--// Page -->
 	</div>
 	<!--// App -->
+
 	<?php
 		include_once("modal.php");
 	?>
