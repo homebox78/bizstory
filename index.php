@@ -13,7 +13,7 @@
 			?>
 
 			<!-- Wrapper -->
-			<div class="app-wrapper  flex-column flex-row-fluid " id="kt_app_wrapper">1111
+			<div class="app-wrapper  flex-column flex-row-fluid " id="kt_app_wrapper">
 				<?php
 					include_once("sidebar.php");
 				?>
